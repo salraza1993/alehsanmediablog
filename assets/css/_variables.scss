@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap');
+
+@import 'fonts';
+
+// $gradientBlue: linear-gradient(120deg, $
+
+$gap: .25rem;
+$headerHeight: 100px;
+$logoSize: 135px;
+$logoGap: calc(#{$logoSize} + 1.75vw);
+$borderRadius: .25rem;
+
+
+
+:root {
+
+  --bs-primary: #0082DE;
+  --bs-primary-rgb: 0, 130, 222;
+  --bs-secondary: #E8553E;
+  --bs-secondary-rgb:232, 85, 62;
+;
+  --bg-base: #F5F5F5;
+  --light-blue: #ECF7FF;
+
+  --bs-gutter-x: 1.5rem;
+  
+  --border-radius: .25rem;
+
+  // Foots
+  --poppins: 'Poppins', 'Roboto', sans-serif;
+  --roboto: 'Roboto', sans-serif;
+  --nooriNastaliq: 'Jameel Noori Nastaleeq', sans-serif;
+  --changa: 'Changa', sans-serif;
+
+  --font-gilroy-light: 'Gilroy-Light', 'Poppins', 'Roboto', sans-serif;
+  --font-gilroy-regular: 'Gilroy-Regular', 'Poppins', 'Roboto', sans-serif;
+  --font-gilroy-medium: 'Gilroy-Medium', 'Poppins', 'Roboto', sans-serif;
+  --font-gilroy-bold: 'Gilroy-Bold', 'Poppins', 'Roboto', sans-serif;
+  --font-gilroy-heavy: 'Gilroy-Heavy', 'Poppins', 'Roboto', sans-serif;
+
+  --transition: all .3s ease-in-out;
+
+  --medium-card-height: 480px;
+  --horizontal-ad-height: 150px;
+  --vertical-ad-height: 480px;
+  --small-card-height: 146px;
+
+}
