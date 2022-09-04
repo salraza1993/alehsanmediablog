@@ -1,0 +1,105 @@
+@mixin headerStrips($bgColor: var(--light-blue), $height: calc($headerHeight / 2)) {
+  background-color: $bgColor;
+  height: $height;
+  position: relative;
+  width: 100%;
+}
+@mixin specialBgGradient($bg1sColor: var(--bs-primary)) {
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    min-width: 1300px;
+    height: 60%;
+    max-width: 90vw;
+    z-index: -1;
+    background-color: var(--bs-primary);
+    border-radius: .9rem;
+    background-image:
+      url('./../img/footer-pattern.png'),
+      linear-gradient(to bottom,
+        rgba($bg1sColor, 1) 0%,
+        rgba(var(--bs-black-rgb), .75) 100%);
+  }
+}
+
+@mixin flexCenter($jc: center, $ai: center, $ac: center, $gap: 0, $direction: initial) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  align-content: $ac;
+  gap: $gap;
+  flex-direction: $direction;
+}
+@mixin fontAwesome() {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+@mixin sectionHeading($width: 100%, $gap: 2rem, $breaker: var(--bs-secondary)) {
+  position: relative;
+  width: $width;
+  gap: $gap;
+  margin-bottom: 3.5rem;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + .65rem);
+    left: 0;
+    width: 115px;
+    height: 4px;
+    background-color: $breaker;
+  }
+  .heading-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: $gap;
+    width: 100%;
+    &:not(.borderless) {
+      &::after {
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: rgba(var(--bs-dark-rgb), .2);
+      }
+    }
+  }
+}
+
+@mixin cardShadow($shadowColor: var(--bs-dark-rgb), $inset: false, $insetColor: var(--bs-primary), $insetWidth: 1px) {
+  z-index: 3;
+  @if $inset == true {
+    box-shadow: 
+      inset 0 0 0 $insetWidth $insetColor,
+      0px 8.3px 10.5px rgba($shadowColor, 0.01),
+      0px 17.5px 19.2px rgba($shadowColor, 0.015),
+      0px 28px 26.4px rgba($shadowColor, 0.020),
+      0px 40.5px 33.6px rgba($shadowColor, 0.025),
+      0px 55.9px 44.5px rgba($shadowColor, 0.03),
+      0px 77px 81px rgba($shadowColor, 0.04);
+  } @else {
+    box-shadow:
+      0px 8.3px 10.5px rgba($shadowColor, 0.01),
+      0px 17.5px 19.2px rgba($shadowColor, 0.015),
+      0px 28px 26.4px rgba($shadowColor, 0.020),
+      0px 40.5px 33.6px rgba($shadowColor, 0.025),
+      0px 55.9px 44.5px rgba($shadowColor, 0.03),
+      0px 77px 81px rgba($shadowColor, 0.04);
+  }
+}
+
+@mixin scrollbar($width: 8px, $thumb: var(--bs-primary), $track: transparent, $hover: var(--bs-secondary)) {
+  &::-webkit-scrollbar { width: $width; height: $width; }
+  /* Track */
+  &::-webkit-scrollbar-track {  background: $track; }   
+  /* Handle */
+  &::-webkit-scrollbar-thumb {  background: $thumb; }  
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {  background: $hover; }  
+}
+/* width */

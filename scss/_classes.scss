@@ -1,0 +1,37 @@
+/* Custom Classes */
+// .gap {
+//   $multiply: 2, 3, 4, 5, 6;
+//   @for $i from 1 to end {
+//     &-x-#{nth($multiply, $i)} {
+
+//     } 
+//   }
+// }
+.gap-x-0 { column-gap: $gap !important;}
+.gap-x-1 { column-gap: $gap * 2 !important;}
+.gap-x-2 { column-gap: $gap * 3 !important;}
+.gap-x-3 { column-gap: $gap * 4 !important;}
+.gap-x-4 { column-gap: $gap * 5 !important;}
+.gap-x-5 { column-gap: $gap * 6 !important;}
+
+.gap-y-0 {row-gap: $gap !important;}
+.gap-y-1 {row-gap: $gap * 2 !important;}
+.gap-y-2 {row-gap: $gap * 3 !important;}
+.gap-y-3 {row-gap: $gap * 4 !important;}
+.gap-y-4 {row-gap: $gap * 1.5 !important;}
+.gap-y-5 {row-gap: $gap * 2 !important;}
+
+.white-space-nowrap, .whiteSpaceNowrap { white-space: nowrap; }
+.white-space-wrap, .whiteSpaceWrap { white-space: wrap; }
+
+.font-poppins { font-family: var(--poppins); }
+.font-roboto { font-family: var(--roboto); }
+
+.font-gilroy-light { font-family: var(--font-gilroy-light); }
+.font-gilroy-regular { font-family: var(--font-gilroy-regular); }
+.font-gilroy-medium { font-family: var(--font-gilroy-medium); }
+.font-gilroy-bold { font-family: var(--font-gilroy-bold); }
+.font-gilroy-heavy { font-family: var(--font-gilroy-heavy); }
+
+
+.text-primary { color: var()}

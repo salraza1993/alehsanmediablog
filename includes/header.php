@@ -4,7 +4,9 @@
     <div class="container">
       <div class="top-sub-strip [ d-flex justify-content-end align-items-center gap-x-4 ]">
         <div class="top-logo">
-          <img src="./assets/img/top-logo.svg" alt="Top Header Logo" />
+          <a href="./">
+            <img src="./assets/img/top-logo.svg" alt="Top Header Logo" />
+          </a>
         </div>
 
         <a href="#" class="btn btn-secondary d-flex gap-x-2 align-items-center">
