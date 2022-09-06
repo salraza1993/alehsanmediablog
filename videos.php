@@ -15,94 +15,145 @@
 </head>
 <body>
   <?php include('includes/header.php') ?>
-  <section class="breadcrumb__section py-4">
-    <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb mb-0">
-          <li class="breadcrumb-item"><a href="./">Home</a></li>
-          <li class="breadcrumb-item"><a href="./">Artical</a></li>
-          <li class="breadcrumb-item"><a href="./">Categories Name</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Post Name</li>
-        </ol>
-      </nav>
-    </div>
-  </section>
 
-  <!-- Banner and content -->
-  <section class="post__content__section">
+  <!-- Hero Banner -->
+  <section class="hero__banner__section">
     <div class="container">
-      <div class="post__video__iframe">
-        <iframe src="https://www.youtube.com/embed/QpzK-UZzuF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="post__content pt-5">
-        <div class="post__content__header mb-4">
-          <h1 class="fw-bold mb-4 urdu">
-            شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری
-          </h1>
-          <div class="post__info [ d-flex justify-content-between border-top border-bottom py-2 ]">
-            <ul class="post__info__list">
-              <li>
-                <a href="javascript:;">
-                  <i class="fa-solid fa-user"></i>
-                  <span>Author Name</span>
-                </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-calendar"></i>
-                <span>Jan 20, 2021</span>
-              </li>
-            </ul>
-            <div class="[ d-flex gap-2 ]">
-              <ul class="post__info__list">
-                <li>
-                  <i class="fa-solid fa-eye"></i>
-                  <span>230</span>
-                </li>
-                <li>
-                  <i class="fa-solid fa-comments"></i>
-                  <span>30</span>
-                </li>
-                <li>
-                  <i class="fa-solid fa-share-from-square"></i>
-                  <span>100</span>
-                </li>
-              </ul>
-              <ul class="post__info__list __share">
-                <li>
-                  <i class="fa-solid fa-share-alt"></i>
-                  <ul class="share__with d-none">
-                    <li><i class="fa-brands fa-facebook-f"></i></li>
-                    <li><i class="fa-brands fa-twitter"></i></li>
-                    <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-whatsapp"></i></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="comment__box">
-        <h3>Comment Plughin</h3>
+      <div class="hero__banner">
+        <h3 class="font-gilroy-bold mb-3 fs-1 text-primary">Vidoes</h3>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="./">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Listing</li>
+          </ol>
+        </nav>
       </div>
     </div>
   </section>
 
-  <section class="related__articals__section mb-5">
+  <!-- Featured Articals -->
+  <section class="post-section py-md-5 mt-4">
     <div class="container">
       <div class="row g-5">
-        <div class="col-12">
-          <div class="section-heading [ d-flex align-items-center mb-4 ]">
-            <h2 class="heading-text borderless m-0 font-gilroy-bold text-white fs-1">
-              <span>
-                <span class="font-gilroy-light">Related</span>
-                <span class="font-gilroy-bold">Videos</span>
-              </span>
-            </h2>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="medium-cards-container">
+            <div class="post-image">
+              <a href="javascript:void(0)">
+                <img src="./assets/img/shot-by.jpg" alt="Image" />
+              </a>
+            </div>
+            <div class="post-content arabic [ d-flex flex-column justify-content-between ]">
+              <div class="post-auth-date [ d-flex ]">
+                <ul class="d-flex">
+                  <li>
+                    <a href="javascript:;">
+                      <i class="fa-solid fa-user"></i>
+                      Author Name
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      <i class="fa-solid fa-calendar"></i>
+                      Jan 20, 2022
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <div class="post-tags mb-md-4 mb-4">
+                  <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
+                </div>
+                <a href="javascript:void(0)">
+                  <h3 class="m-0 post-heading">
+                    قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي
+                  </h3>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="medium-cards-container">
+            <div class="post-image">
+              <a href="javascript:void(0)">
+                <img src="./assets/img/shot-by.jpg" alt="Image" />
+              </a>
+            </div>
+            <div class="post-content urdu [ d-flex flex-column justify-content-between ]">
+              <div class="post-auth-date [ d-flex ]">
+                <ul class="d-flex">
+                  <li>
+                    <a href="javascript:;">
+                      <i class="fa-solid fa-user"></i>
+                      Author Name
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      <i class="fa-solid fa-calendar"></i>
+                      Jan 20, 2022
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <div class="post-tags mb-md-4 mb-4">
+                  <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
+                </div>
+                <a href="javascript:void(0)">
+                  <h3 class="m-0 post-heading">
+                    جشن یوم غزالی کے موقع پر شیخ عبد القادر جیلانی اور خواجہ نظام الدین اولیا کا عرس
+                  </h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="medium-cards-container">
+            <div class="post-image">
+              <a href="javascript:void(0)">
+                <img src="./assets/img/shot-by.jpg" alt="Image" />
+              </a>
+            </div>
+            <div class="post-content urdu [ d-flex flex-column justify-content-between ]">
+              <div class="post-auth-date [ d-flex ]">
+                <ul class="d-flex">
+                  <li>
+                    <a href="javascript:;">
+                      <i class="fa-solid fa-user"></i>
+                      Author Name
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      <i class="fa-solid fa-calendar"></i>
+                      Jan 20, 2022
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <div class="post-tags mb-md-4 mb-4">
+                  <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
+                </div>
+                <a href="javascript:void(0)">
+                  <h3 class="m-0 post-heading">
+                    جشن یوم غزالی کے موقع پر شیخ عبد القادر جیلانی اور خواجہ نظام الدین اولیا کا عرس
+                  </h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>
+  </section>
 
-        <div class="col-12 col-md-6 col-lg-4">
+  <section class="post__listing__section">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-12 col-md-6 col-xl-4">
           <div class="video__type__card video__type__card__related">
             <div class="video__type__card__image">
               <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
@@ -115,7 +166,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-xl-4">
           <div class="video__type__card video__type__card__related">
             <div class="video__type__card__image">
               <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
@@ -128,7 +179,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-xl-4">
           <div class="video__type__card video__type__card__related">
             <div class="video__type__card__image">
               <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
@@ -141,6 +192,132 @@
             </div>
           </div>
         </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="video__type__card video__type__card__related">
+            <div class="video__type__card__image">
+              <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
+            </div>
+            <div class="video__type__card__content urdu">
+              <a href="javascript:;">
+                <i class="fa-solid fa-play"></i>
+                <h4>شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="video__type__card video__type__card__related">
+            <div class="video__type__card__image">
+              <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
+            </div>
+            <div class="video__type__card__content urdu">
+              <a href="javascript:;">
+                <i class="fa-solid fa-play"></i>
+                <h4>شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="video__type__card video__type__card__related">
+            <div class="video__type__card__image">
+              <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
+            </div>
+            <div class="video__type__card__content urdu">
+              <a href="javascript:;">
+                <i class="fa-solid fa-play"></i>
+                <h4>شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="video__type__card video__type__card__related">
+            <div class="video__type__card__image">
+              <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
+            </div>
+            <div class="video__type__card__content urdu">
+              <a href="javascript:;">
+                <i class="fa-solid fa-play"></i>
+                <h4>شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="video__type__card video__type__card__related">
+            <div class="video__type__card__image">
+              <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
+            </div>
+            <div class="video__type__card__content urdu">
+              <a href="javascript:;">
+                <i class="fa-solid fa-play"></i>
+                <h4>شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="video__type__card video__type__card__related">
+            <div class="video__type__card__image">
+              <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
+            </div>
+            <div class="video__type__card__content urdu">
+              <a href="javascript:;">
+                <i class="fa-solid fa-play"></i>
+                <h4>شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="video__type__card video__type__card__related">
+            <div class="video__type__card__image">
+              <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
+            </div>
+            <div class="video__type__card__content urdu">
+              <a href="javascript:;">
+                <i class="fa-solid fa-play"></i>
+                <h4>شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="video__type__card video__type__card__related">
+            <div class="video__type__card__image">
+              <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
+            </div>
+            <div class="video__type__card__content urdu">
+              <a href="javascript:;">
+                <i class="fa-solid fa-play"></i>
+                <h4>شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <div class="video__type__card video__type__card__related">
+            <div class="video__type__card__image">
+              <img src="./assets/img/video__1.jpg" alt="Vidoe Thumbnail">
+            </div>
+            <div class="video__type__card__content urdu">
+              <a href="javascript:;">
+                <i class="fa-solid fa-play"></i>
+                <h4>شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pagination__container w-100 d-flex justify-content-center my-5 pt-3">
+        <ul class="pagination pagination-lg">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
       </div>
     </div>
   </section>
@@ -166,7 +343,7 @@
     <div class="container">
       <div class="section-heading [ d-flex align-items-center ]">
         <h2 class="heading-text m-0 font-gilroy-bold text-primary fs-1">
-          <span class="white-space-nowrap">Most Popular Articals</span>
+          <span class="white-space-nowrap">Related Articals</span>
         </h2>
         <a href="javasript:;" class="white-space-nowrap [ btn btn-light border hover-dark ]">
           View All 

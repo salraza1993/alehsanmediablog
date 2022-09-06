@@ -18,7 +18,7 @@
             </a>
           </div>
           <div class="post-short-info urdu">
-            <div class="post-tags mb-md-4 mb-4">
+            <div class="post-tags">
               <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
             </div>
             <div class="post-heading">
@@ -48,7 +48,7 @@
             </a>
           </div>
           <div class="post-short-info">
-            <div class="post-tags mb-md-4 mb-4">
+            <div class="post-tags">
               <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
             </div>
             <div class="post-heading">
@@ -78,7 +78,7 @@
             </a>
           </div>
           <div class="post-short-info hindi">
-            <div class="post-tags mb-md-4 mb-4">
+            <div class="post-tags">
               <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
             </div>
             <div class="post-heading">
@@ -108,7 +108,7 @@
             </a>
           </div>
           <div class="post-short-info urdu">
-            <div class="post-tags mb-md-4 mb-4">
+            <div class="post-tags">
               <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
             </div>
             <div class="post-heading">

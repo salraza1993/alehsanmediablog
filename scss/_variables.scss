@@ -5,18 +5,13 @@
 
 @import 'fonts';
 
-// $gradientBlue: linear-gradient(120deg, $
-
 $gap: .25rem;
 $headerHeight: 100px;
 $logoSize: 135px;
 $logoGap: calc(#{$logoSize} + 1.75vw);
 $borderRadius: .25rem;
 
-
-
 :root {
-
   --bs-primary: #0082DE;
   --bs-primary-rgb: 0, 130, 222;
   --bs-secondary: #E8553E;
@@ -53,5 +48,6 @@ $borderRadius: .25rem;
   --vidoe-thumbnail-height: 340px;
   --listing-hero-banner-height: 170px;
   --author-profile-short-card-height: 360px;
+  --author-detail-profile-img-size: 160px;
 
 }

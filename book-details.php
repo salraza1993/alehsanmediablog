@@ -31,14 +31,15 @@
   <!-- Banner and content -->
   <section class="post__content__section">
     <div class="container">
-      <div class="post__video__iframe">
-        <iframe src="https://www.youtube.com/embed/QpzK-UZzuF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="post__book__cover">
+        <picture>
+          <!-- <source media="(max-width:465px)" srcset="img_white_flower.jpg"> -->
+          <img src="https://unblast.com/wp-content/uploads/2018/07/Open-Hardcover-Book-Mockup.jpg" alt="Ad Image">
+        </picture>
       </div>
       <div class="post__content pt-5">
         <div class="post__content__header mb-4">
-          <h1 class="fw-bold mb-4 urdu">
-            شاہ صفی میموریل ٹرسٹ کے زیر اہتما م مختلف علاقوں میں ریلیف کیمپ اور امداد کا سلسلہ جاری
-          </h1>
+          <h1 class="fw-bold mb-4 urdu">ماہنامہ خضرراہ</h1>
           <div class="post__info [ d-flex justify-content-between border-top border-bottom py-2 ]">
             <ul class="post__info__list">
               <li>
@@ -78,6 +79,64 @@
                   </ul>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="post__content__body">
+          <div class="post__book__cover__details">
+            <table class="table table-bordered table-striped mb-4">
+              <tbody>
+                <tr>
+                  <th scope="row">Name</th>
+                  <td>Majmaussulook</td>
+                </tr>
+                <tr>
+                  <th scope="row">Editor</th>
+                  <td>Jahangir Hasan</td>
+                </tr>
+                <tr>
+                  <th scope="row">Compilers</th>
+                  <td>Zishan Ahmad Misbahi, Mujibur Rahman Alimi</td>
+                </tr>
+                <tr>
+                  <th scope="row">Assistants</th>
+                  <td>Asghar Ali Misbahi</td>
+                </tr>
+                <tr>
+                  <th scope="row">Author</th>
+                  <td>Sheikh Sad Khairabadi</td>
+                </tr>
+                <tr>
+                  <th scope="row">Translator</th>
+                  <td>Ziyaur Rahman Alimi</td>
+                </tr>
+                <tr>
+                  <th scope="row">Research and analysis</th>
+                  <td>Ghulam Mustafa Azhari</td>
+                </tr>
+                <tr>
+                  <th scope="row">Total Pages</th>
+                  <td>500</td>
+                </tr>
+                <tr>
+                  <th scope="row">Publisher</th>
+                  <td>Shah Safi Academy</td>
+                </tr>
+                <tr>
+                  <th scope="row">Publication Date</th>
+                  <td>5,06,2019</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="cta__buttons d-flex justify-content-between align-items-center border-top border-bottom py-3">
+              <a href="/donate" class="btn btn-secondary btn-lg d-flex gap-4 align-items-center">
+                Donate Now
+                <i class="fa-solid fa-circle-dollar-to-slot"></i>
+              </a>
+              <a href="/donate" class="btn btn-lg d-flex gap-4 align-items-center hover-primary">
+                Download 
+                <i class="fa-solid fa-download"></i>
+              </a>
             </div>
           </div>
         </div>

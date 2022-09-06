@@ -40,191 +40,191 @@
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam non possimus repudiandae illum numquam? Dicta eligendi harum ea rerum fuga labore cum voluptatibus corrupti illo, obcaecati
           </p>
-          <p>
+          <h3 class="mb-4">
             <strong>Become a member of Al Ehsan Media and write/post your Articles on our platform</strong>
-          </p>
-          <a href="javascript:;" class="btn btn-secondary [ d-inline-flex align-items-center gap-3 ]">
+          </h3>
+          <a href="javascript:;" class="btn btn-secondary btn-lg [ d-inline-flex align-items-center gap-3 ]">
             Register Now
             <i class="fa-solid fa-long-arrow-right"></i>
           </a>
         </div>
       </div>
       <div class="row g-4">
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
-            <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+            <div class="author__profile__card__name">
+              <h4>Zeeshan Ahmad Misbahi</h4>
+              <small>Teacher, Jamia Arifia, Allahabad</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
           <div class="author__profile__card">
             <div class="author__profile__card__image">
               <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
             </div>
             <div class="author__profile__card__name urdu">
-              <h3>ذیشان احمد مصباحی</h3>
-              <p>استاذ جامعہ عارفیہ، سید سراواں</p>
+              <h4>ذیشان احمد مصباحی</h4>
+              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
             </div>
-            <a href="javascript:;" class="btn btn-outline-primary [ d-inline-flex align-items-center gap-3 ]">
+            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
               <span>Articals (50)</span>
               <i class="fa-solid fa-long-arrow-right"></i>
             </a>

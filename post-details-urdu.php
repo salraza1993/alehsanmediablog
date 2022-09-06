@@ -86,7 +86,7 @@
             </div>
           </div>
         </div>
-        <div class="post__content__body arabic">
+        <div class="post__content__body urdu">
           <h3>جامعہ عارفیہ کے لیے ایک نئے ہاسٹل کا سنگ بنیاد ،شاہ صفی اکیڈمی کی تین نئی کتابوں کا رسم اجرا</h3>
           <img src="./assets/img/post-image-1.jpg" alt="" />
           <strong><p> پریس ریلیز؍سید سراواں،کوشامبی</p></strong>
