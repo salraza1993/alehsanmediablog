@@ -71,6 +71,7 @@
   --listing-hero-banner-height: 170px;
   --author-profile-short-card-height: 360px;
   --author-detail-profile-img-size: 160px;
+  --input-height: 50px;
 }
 
 /* width */
@@ -396,6 +397,10 @@ html {
   font-size: 14px;
 }
 
+:root {
+  --cover-bg: "";
+}
+
 body {
   font-family: var(--roboto);
   background-color: var(--bg-base);
@@ -633,10 +638,11 @@ a {
   color: var(--bs-dark);
   height: auto;
   padding: 0.9rem 1.3rem;
+  white-space: nowrap;
   overflow: hidden;
 }
 .main-header .top-nav-container .top-nav-sub-container .menu li.menu-item-has-children .sub-menu li a:hover, .main-header .top-nav-container .top-nav-sub-container .menu .menu-item.menu-item-has-children .sub-menu li a:hover {
-  box-shadow: inset 150px 0 0 var(--bs-secondary);
+  background-color: var(--bs-secondary);
   color: var(--bs-white);
 }
 .main-header .top-nav-container .top-nav-sub-container .menu li.menu-item-has-children:hover .sub-menu li, .main-header .top-nav-container .top-nav-sub-container .menu .menu-item.menu-item-has-children:hover .sub-menu li {
@@ -1479,7 +1485,7 @@ footer .print_n_digital_container .content {
   left: 100%;
   content: url("./../img/cemetery__right.svg");
 }
-.hero__banner__section__authors {
+.hero__banner__section.__dark {
   --listing-hero-banner-height: 200px;
   background-color: #5E9CEA;
   background-image: url("./../img/author-banner.jpg");
@@ -1488,20 +1494,24 @@ footer .print_n_digital_container .content {
   background-blend-mode: multiply;
   isolation: isolate;
 }
-.hero__banner__section__authors::after {
+.hero__banner__section.__dark::after {
   content: "";
   background-color: rgba(var(--bs-dark-rgb), 0.15);
   position: absolute;
   inset: 0;
   z-index: -1;
 }
-.hero__banner__section__authors .hero__banner {
+.hero__banner__section.__dark .breadcrumb-item + .breadcrumb-item::before {
+  --bs-breadcrumb-divider-color: var(--bs-white);
+  opacity: 0.5;
+}
+.hero__banner__section.__dark .hero__banner {
   background-color: transparent;
 }
-.hero__banner__section__authors .hero__banner h3, .hero__banner__section__authors .hero__banner .breadcrumb-item, .hero__banner__section__authors .hero__banner .breadcrumb-item a {
+.hero__banner__section.__dark .hero__banner h3, .hero__banner__section.__dark .hero__banner .breadcrumb-item, .hero__banner__section.__dark .hero__banner .breadcrumb-item a {
   color: var(--bs-white) !important;
 }
-.hero__banner__section__authors .hero__banner::after, .hero__banner__section__authors .hero__banner::before {
+.hero__banner__section.__dark .hero__banner::after, .hero__banner__section.__dark .hero__banner::before {
   display: none;
 }
 
@@ -1638,6 +1648,9 @@ footer .print_n_digital_container .content {
 .post__listing__card__content.arabic .post-auth-date {
   justify-content: end;
   direction: ltr;
+}
+.post__listing__card__content.arabic p {
+  line-height: 1.5em;
 }
 .post__listing__card__content.hindi :is(h3, h4, p) {
   font-family: var(--poppins);
@@ -2269,4 +2282,128 @@ footer .print_n_digital_container .content {
 }
 .post__book__cover__details .cta__buttons {
   margin-inline: auto;
+}
+
+.login__section {
+  --card-width: 1024px;
+  position: relative;
+  width: 100%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: var(--bg-base);
+  background-image: url("./../img/pattern__dark.png");
+}
+.login__section::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.login__section .author__registration__info,
+.login__section .login__form__container {
+  max-width: var(--card-width);
+}
+.login__section .login__form__container {
+  position: relative;
+  width: 100%;
+  border-radius: calc(var(--border-radius) * 3);
+  margin-inline: auto;
+  background-color: var(--bs-white);
+  display: flex;
+  box-shadow: inset 0px 0 0 1px var(--bs-gray-200), 0px 2.8px 2.2px rgba(0, 0, 0, 0.011), 0px 6.7px 5.3px rgba(0, 0, 0, 0.016), 0px 12.5px 10px rgba(0, 0, 0, 0.02), 0px 22.3px 17.9px rgba(0, 0, 0, 0.024), 0px 41.8px 33.4px rgba(0, 0, 0, 0.029), 0px 100px 80px rgba(0, 0, 0, 0.04);
+}
+.login__section .login__form__container > div {
+  width: 100%;
+  position: relative;
+}
+.login__section .login__form__container > div.left__block {
+  max-width: 43%;
+}
+.login__section .login__form__cover {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bs-primary);
+  border-radius: calc(var(--border-radius) * 3) 0 0 calc(var(--border-radius) * 3);
+  background-image: var(--cover-bg);
+  background-size: auto 100%;
+  background-position: center bottom;
+  isolation: isolate;
+}
+.login__section .login__form__cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.login__section .login__form__cover .logo__image {
+  position: relative;
+  margin: 1.5rem;
+}
+.login__section .login__form__block {
+  position: relative;
+  width: 100%;
+  padding: calc(2rem + 1vw);
+  display: flex;
+  flex-direction: column;
+  gap: calc(1rem + 0.5vw);
+}
+.login__section .login__form__block__label {
+  display: flex;
+  gap: 0.65rem;
+}
+.login__section .login__form__block__label i {
+  font-size: 55%;
+  color: var(--bs-danger);
+  padding-top: 0.25rem;
+}
+.login__section .login__form__block__input__box {
+  position: relative;
+}
+.login__section .login__form__block__input__box input {
+  height: var(--input-height);
+  padding-left: var(--input-height);
+}
+.login__section .login__form__block__input__box textarea {
+  padding: 0.75rem;
+  font-size: clamp(1rem, 1.5rem + 0.5vw, 1.25rem) !important;
+  padding-left: var(--input-height);
+}
+.login__section .login__form__block__input__box i {
+  top: 0;
+  position: absolute;
+  width: var(--input-height);
+  height: var(--input-height);
+  color: var(--bs-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0;
+  flex-direction: initial;
+}
+
+.hero__banner__section {
+  position: relative;
+}
+
+.about__page__container {
+  position: relative;
+}
+.about__page__content {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+.about__page__content .media__logo {
+  margin-inline: auto;
+}
+.about__page__content .media__logo img {
+  width: 220px;
+  box-shadow: 0 10px 15px rgba(var(--bs-black-rgb), 0.1);
 }/*# sourceMappingURL=style.css.map */

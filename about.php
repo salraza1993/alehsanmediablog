@@ -16,229 +16,64 @@
 <body>
   <?php include('includes/header.php') ?>
   <!-- Hero Banner -->
-  <section class="hero__banner__section __dark" style="background-image: url('./assets/img/author-banner.jpg');">
+  <section class="hero__banner__section __dark" style="background-image: url('./assets/img/jamia-hero-banner.jpg');">
     <div class="container">
       <div class="hero__banner">
-        <h3 class="font-gilroy-bold mb-3 fs-1 text-primary">Authors</h3>
+        <h3 class="font-gilroy-bold mb-3 fs-1 text-primary">About</h3>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="./">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Authors</li>
+            <li class="breadcrumb-item active" aria-current="page">About</li>
           </ol>
         </nav>
       </div>
     </div>
   </section>
 
-  <section class="author__listing__section">
-    <div class="container">
-      <div class="author__registration__info [ d-flex gap-5 align-items-center mb-5 ]">
-        <div class="__icon">
-          <img src="./assets/img/writting-hand.svg" alt="Writting Hand Icon" />
-        </div>
-        <div class="__content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam non possimus repudiandae illum numquam? Dicta eligendi harum ea rerum fuga labore cum voluptatibus corrupti illo, obcaecati
-          </p>
-          <h3 class="mb-4">
-            <strong>Become a member of Al Ehsan Media and write/post your Articles on our platform</strong>
-          </h3>
-          <a href="javascript:;" class="btn btn-secondary btn-lg [ d-inline-flex align-items-center gap-3 ]">
-            Register Now
-            <i class="fa-solid fa-long-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
+  <section class="about__page__section py-5">
+    <div class="container mt-5">
+      <div class="about__page__container">
+        <div class="about__page__content">
+          <div class="text-center">
+            <div class="media__logo mb-5">
+              <img src="./assets/img/top-logo.svg" alt="Media Logo" />
             </div>
-            <div class="author__profile__card__name">
-              <h4>Zeeshan Ahmad Misbahi</h4>
-              <small>Teacher, Jamia Arifia, Allahabad</small>
+            <h1 class="font-gilroy-bold text-primary text-uppercase">Al-Ehsan Media</h1>
+          </div>
+          <hr class="my-5" />
+          <div class="d-flex flex-column gap-3">
+            <div class="content__block">
+              <h3 class="mb-3">Hading 1</h3>
+              <div class="content__block__text [ d-flex gap-5 ]">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores a corporis harum, quidem tenetur, incidunt magnam ex sed dignissimos iste id commodi laboriosam quod fuga natus voluptate ad. Illum molestias rerum consequatur tenetur, minima vel distinctio blanditiis quae dolorem ratione esse ab odio impedit incidunt ex explicabo itaque? Doloremque quasi dolor excepturi perferendis.
+                </p>        
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores a corporis harum, quidem tenetur, incidunt magnam ex sed dignissimos iste id commodi laboriosam quod fuga natus voluptate ad. Illum molestias rerum consequatur tenetur, minima vel distinctio blanditiis quae dolorem ratione esse ab odio impedit incidunt ex explicabo itaque? Doloremque quasi dolor excepturi perferendis, qui, quisquam illum non, rem corrupti optio sunt obcaecati incidunt officiis autem doloribus maxime repellat voluptas! Cumque maxime molestias veniam expedita error aspernatur earum voluptatem. Veniam quod debitis, ipsum, corrupti mollitia cupiditate blanditiis tenetur facilis sed, sapiente excepturi atque velit laborum natus eaque. Veniam, mollitia sed.
+                </p>
+              </div>
             </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
+            <div class="content__block">
+              <h3 class="mb-3">Hading 1</h3>
+              <div class="content__block__text [ d-flex gap-5 ]">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores a corporis harum, quidem tenetur, incidunt magnam ex sed dignissimos iste id commodi laboriosam quod fuga natus voluptate ad. Illum molestias rerum consequatur tenetur, minima vel distinctio blanditiis quae dolorem ratione esse ab odio impedit incidunt ex explicabo itaque? Doloremque quasi dolor excepturi perferendis, qui, quisquam illum non, rem corrupti optio sunt obcaecati incidunt officiis autem doloribus maxime repellat voluptas! Cumque maxime molestias veniam expedita error aspernatur earum voluptatem. Veniam quod debitis, ipsum, corrupti mollitia cupiditate blanditiis tenetur facilis sed, sapiente excepturi atque velit laborum natus eaque. Veniam, mollitia sed.
+                </p>        
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores a corporis harum, quidem tenetur, incidunt magnam ex sed dignissimos iste id commodi laboriosam quod fuga natus voluptate ad. Illum molestias rerum consequatur tenetur, minima vel distinctio blanditiis quae dolorem ratione esse ab odio impedit incidunt ex explicabo itaque? Doloremque quasi dolor excepturi perferendis, qui, quisquam illum non, rem corrupti optio sunt obcaecati incidunt officiis autem doloribus maxime repellat voluptas! Cumque maxime molestias veniam expedita error aspernatur earum voluptatem. Veniam quod debitis, ipsum, corrupti mollitia cupiditate blanditiis tenetur facilis sed, sapiente excepturi atque velit laborum natus eaque. Veniam, mollitia sed.
+                </p>
+              </div>
+            </div>
+            <div class="content__block">
+              <h3 class="mb-3">Hading 1</h3>
+              <div class="content__block__text [ d-flex gap-5 ]">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolores a corporis harum, quidem tenetur, incidunt magnam ex sed dignissimos iste id commodi laboriosam quod fuga natus voluptate ad. Illum molestias rerum consequatur tenetur, minima vel distinctio blanditiis quae dolorem ratione esse ab odio impedit incidunt ex explicabo itaque? Doloremque quasi dolor excepturi perferendis, qui, quisquam illum non, rem corrupti optio sunt obcaecati incidunt officiis autem doloribus maxime repellat voluptas! Cumque maxime molestias veniam expedita error aspernatur earum voluptatem. Veniam quod debitis, ipsum, corrupti mollitia cupiditate blanditiis tenetur facilis sed, sapiente excepturi atque velit laborum natus eaque. Veniam, mollitia sed.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="pagination__container w-100 d-flex justify-content-center my-5 pt-3">
-        <ul class="pagination pagination-lg">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
       </div>
     </div>
   </section>

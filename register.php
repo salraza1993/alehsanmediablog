@@ -15,234 +15,88 @@
 </head>
 <body>
   <?php include('includes/header.php') ?>
-  <!-- Hero Banner -->
-  <section class="hero__banner__section __dark" style="background-image: url('./assets/img/author-banner.jpg');">
-    <div class="container">
-      <div class="hero__banner">
-        <h3 class="font-gilroy-bold mb-3 fs-1 text-primary">Authors</h3>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb mb-0">
-            <li class="breadcrumb-item"><a href="./">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Authors</li>
-          </ol>
-        </nav>
+
+  <section class="login__section mb-5">
+    <div class="container [ d-flex gap-5 flex-column ]">
+      <div class="login__form__container">
+        <div class="left__block">
+          <div class="login__form__cover" style="--cover-bg: url('https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg')">
+            <img src="./assets/img/top-logo.svg" alt="Logo" class="logo__image" width="75px" />
+          </div>
+        </div>
+        <div class="right__block">
+          <form action="" class="login__form__block align-items-start gap-4">
+            <div class="login__form__content w-100">
+              <h1 class="font-gilroy-bold text-primary mb-3">Register</h1>
+              <p class="fs-5">Let's get you all set up so you can verify your personal account and begin setting up your profile.</p>
+            </div>
+            <div class="login__form__block__input w-100">
+              <label for="fullname" class="form-label login__form__block__label fs-5">
+                Full Name
+                <i class="fa-solid fa-star-of-life"></i>
+              </label>
+              <div class="login__form__block__input__box">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" class="form-control form-control-lg" id="fullname" placeholder="Enter Full Name" />
+              </div>
+            </div>
+            <div class="login__form__block__input w-100">
+              <label for="email" class="form-label login__form__block__label fs-5">
+                Email
+                <i class="fa-solid fa-star-of-life"></i>
+              </label>
+              <div class="login__form__block__input__box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter email id" />
+              </div>
+            </div>
+            <div class="login__form__block__input w-100">
+              <label for="phone" class="form-label login__form__block__label fs-5">
+                Phone
+                <i class="fa-solid fa-star-of-life"></i>
+              </label>
+              <div class="login__form__block__input__box">
+                <i class="fa-solid fa-phone"></i>
+                <input type="number" class="form-control form-control-lg" id="phone" placeholder="Enter phone" />
+              </div>
+            </div>
+            <div class="login__form__block__input w-100">
+              <label for="designation" class="form-label login__form__block__label fs-5">
+                Designation/Profile
+                <i class="fa-solid fa-star-of-life"></i>
+              </label>
+              <div class="login__form__block__input__box">
+                <i class="fa-solid fa-id-card-clip"></i>
+                <input type="text" class="form-control form-control-lg" id="designation" placeholder="Enter designation/profile">
+              </div>
+            </div>
+            <div class="login__form__block__input w-100">
+              <label for="designation" class="form-label login__form__block__label fs-5">
+                Designation/Profile
+                <i class="fa-solid fa-star-of-life"></i>
+              </label>
+              <div class="login__form__block__input__box">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <textarea name="address" id="address" class="form-control" cols="10" rows="4" placeholder="Enter full address"></textarea>
+              </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-secondary d-inline-flex gap-x-3 align-items-center">
+              Process to create account
+              <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </button>
+            <div class="w-100 mt-2">
+              <hr class="mt-0" />
+              <div class="d-flex gap-3 mt-4">
+                Already have an account?
+                <a href="./login.php" class="link-primary">Sign In</a>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="author__listing__section">
-    <div class="container">
-      <div class="author__registration__info [ d-flex gap-5 align-items-center mb-5 ]">
-        <div class="__icon">
-          <img src="./assets/img/writting-hand.svg" alt="Writting Hand Icon" />
-        </div>
-        <div class="__content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam non possimus repudiandae illum numquam? Dicta eligendi harum ea rerum fuga labore cum voluptatibus corrupti illo, obcaecati
-          </p>
-          <h3 class="mb-4">
-            <strong>Become a member of Al Ehsan Media and write/post your Articles on our platform</strong>
-          </h3>
-          <a href="javascript:;" class="btn btn-secondary btn-lg [ d-inline-flex align-items-center gap-3 ]">
-            Register Now
-            <i class="fa-solid fa-long-arrow-right"></i>
-          </a>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name">
-              <h4>Zeeshan Ahmad Misbahi</h4>
-              <small>Teacher, Jamia Arifia, Allahabad</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
-          <div class="author__profile__card">
-            <div class="author__profile__card__image">
-              <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
-            </div>
-            <div class="author__profile__card__name urdu">
-              <h4>ذیشان احمد مصباحی</h4>
-              <small>استاذ جامعہ عارفیہ، سید سراواں</small>
-            </div>
-            <a href="javascript:;" class="btn btn-primary [ d-inline-flex align-items-center gap-3 ]">
-              <span>Articals (50)</span>
-              <i class="fa-solid fa-long-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="pagination__container w-100 d-flex justify-content-center my-5 pt-3">
-        <ul class="pagination pagination-lg">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  
   <!-- Full Width Ad -->
   <section class="post-section">
     <div class="container">
@@ -264,7 +118,7 @@
     <div class="container">
       <div class="section-heading [ d-flex align-items-center ]">
         <h2 class="heading-text m-0 font-gilroy-bold text-primary fs-1">
-          <span class="white-space-nowrap">Most Popular Articals</span>
+          <span class="white-space-nowrap">Related Articals</span>
         </h2>
         <a href="javasript:;" class="white-space-nowrap [ btn btn-light border hover-dark ]">
           View All 

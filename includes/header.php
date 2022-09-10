@@ -16,13 +16,13 @@
 
         <ul class="menu [ d-flex align-items-center ] ">     
           <li class="menu-item">
-            <a href="#" class="menu-link">
+            <a href="./about.php" class="menu-link">
               <i class="fa-solid fa-circle-question"></i>
               <span>About Us</span>
             </a>
           </li>
           <li class="menu-item">
-            <a href="#" class="menu-link">
+            <a href="./contact.php" class="menu-link">
               <i class="fa-solid fa-envelope"></i>
               <span>Contact Us</span>
             </a>

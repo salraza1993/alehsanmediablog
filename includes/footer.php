@@ -4,13 +4,13 @@
       <div class="foter-top-menu [ d-flex align-items-center justify-content-between ]">
         <ul class="menu [ d-flex ]">
           <li>
-            <a href="#" target="_blank">Abuot us</a>
+            <a href="./about.php">Abuot us</a>
           </li>
           <li>
-            <a href="#" target="_blank">Contact Us</a>
+            <a href="./contact.php">Contact Us</a>
           </li>
           <li>
-            <a href="#" target="_blank">Refister as an Author</a>
+            <a href="./register.php">Register as an Author</a>
           </li>
           <li>
             <a href="#" target="_blank">Privacy Policy</a>
