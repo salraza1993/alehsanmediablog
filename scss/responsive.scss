@@ -1,0 +1,86 @@
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
+@import 'classes';
+@import 'bootstrap_override';
+
+// xxl
+@media (max-width: 1400px) {}
+
+// xl
+@media (max-width: 1200px) {}
+
+// lg
+@media (992px <= width <= 1199px) {
+  :root {
+    --medium-card-height: 280px;
+    --artical-type-card-height: 200px;
+    --small-card-height: 160px;
+    --vertical-ad-height: 150px;
+  }
+  .medium-cards-container.medium-small-cards-container {
+    min-height: calc(var(--medium-card-height) - 0px);
+  }
+  .read__articals__section {
+    padding-bottom: 6vh;
+    &::after { height: 100%; }
+  }
+  .featured__articals__card__container {
+    > div:last-child { width: 100%; }
+  }
+}
+
+// md
+@media (768px <= width <= 991px) {
+  :root {
+    --medium-card-height: 250px;
+    --small-card-height: 160px;
+    --vertical-ad-height: 150px;
+    --artical-type-card-width: 300px;
+  }
+  .featured__articals__card__container {
+    --medium-card-height: 420px;
+  }
+  .read__articals__section {
+    padding-bottom: 0;
+    &::after { 
+      min-width: 100%;
+      border-radius: 0;
+    }
+  }
+  .horizontal-scroll, .horizontal__scroll {
+    .container { padding: 0; }
+    @include horizontalScroll();
+    .col-12, .col-md-6 { width: auto; flex: initial; }
+  }
+  .artical__type__card {
+    min-width: var(--artical-type-card-width);
+    max-width: var(--artical-type-card-width);
+  }
+}
+// sm
+@media (576px <= width <= 767px) {
+  :root {
+    --medium-card-height: 250px;
+    --small-card-height: 160px;
+    --vertical-ad-height: 150px;
+    --artical-type-card-width: 300px;
+  }
+  .horizontal-scroll, .horizontal__scroll {
+    .container { padding: 0; }
+    @include horizontalScroll($containerWidth: var(--container-sm));
+    .col-12, .col-md-6 { width: auto; flex: initial; }
+  }
+  .artical__type__card {
+    min-width: var(--artical-type-card-width);
+    max-width: var(--artical-type-card-width);
+  }
+}
+
+// xs
+@media (max-width: 575px) {
+  .horizontal-scroll, .horizontal__scroll {
+    @include horizontalScroll($containerWidth: 100vw);
+    .col-12, .col-md-6 { width: auto; flex: initial; }
+  }
+}

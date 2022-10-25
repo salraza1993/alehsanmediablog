@@ -102,8 +102,6 @@ a {
 
 /* header start */
 .main-header {
-  position: relative;
-  background-color: #ccc;
   position: fixed;
   top: 0;
   width: 100%;
@@ -411,19 +409,19 @@ a {
       padding: 0 calc(var(--bs-gutter-x) * 0.5);
 
       @media (min-width: 576px) { 
-        & { max-width: 540px; }
+        & { max-width: var(--container-sm); }
       }      
       @media (min-width: 768px) {
-        & { max-width: 720px; }
+        & { max-width: var(--container-md); }
       }      
       @media (min-width: 992px) {
-        & { max-width: 960px; }
+        & { max-width: var(--container-lg); }
       }      
-      @media (min-width: 1200px) {
-        & { max-width: 1140px; }    
+      @media (min-width: var(--media-xl-width)) {
+        & { max-width: var(--container-xl); }
       }
       @media (min-width: 1400px) {
-        & { max-width: 1320px; }      
+        & { max-width: var(--container-xxl); }      
       }
       li {
         width: 100%;
@@ -649,6 +647,7 @@ a {
       background-image: linear-gradient(to bottom, rgba(var(--bs-black-rgb), 0.0) 0%, rgba(var(--bs-black-rgb), .7) 100%);
       border-radius: calc($borderRadius * 2.75);
       transition: var(--transition);
+      gap: 1.5rem;
       &.urdu {
         .post-heading {
           font-size: 2.25rem;
@@ -692,11 +691,11 @@ a {
   height: 100%;
   transition: var(--transition);
   &.vertical {
-    min-height: ar(--vertical-ad-height);
+    min-height: var(--vertical-ad-height);
   }
   &.horizontal {
-    min-height: ar(--horizontal-ad-height);
-    max-height: ar(--horizontal-ad-height);
+    min-height: var(--horizontal-ad-height);
+    max-height: var(--horizontal-ad-height);
   }
 
   &:hover {
@@ -715,12 +714,9 @@ a {
   }
   picture {
     display: inline-flex;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100%;
     overflow: hidden;  
-    display: block;
+    position: absolute;
+    inset: 0;
     img {
       width: 100%;
       height: 100%;
@@ -769,21 +765,21 @@ a {
 }
 
 .video__type__card__container {
-  --viewport-gap: 4rem;
 
   position: relative;
   overflow-x: scroll;
-  @include scrollbar(5px);
+  --scrollbar-width: 5px;
+  @include scrollbar();
   display: flex;
   align-items: start;
   gap: 1.5rem;
   padding: 0 calc(var(--viewport-gap) / 2) 2.5rem;
   
-  @media (min-width: 576px) { --viewport-gap: calc(100vw - 540px); }
-  @media (min-width: 768px) { --viewport-gap: calc(100vw - 720px); }
-  @media (min-width: 992px) { --viewport-gap: calc(100vw - 960px); }
-  @media (min-width: 1200px) { --viewport-gap: calc(100vw - 1140px); }
-  @media (min-width: 1400px) { --viewport-gap: calc(100vw - 1320px); }
+  @media (min-width: 576px) { --viewport-gap: calc(100vw - var(--container-sm)); }
+  @media (min-width: 768px) { --viewport-gap: calc(100vw - var(--container-md)); }
+  @media (min-width: 992px) { --viewport-gap: calc(100vw - var(--container-lg)); }
+  @media (min-width: 1200px) { --viewport-gap: calc(100vw - var(--container-xl)); }
+  @media (min-width: 1400px) { --viewport-gap: calc(100vw - var(--container-xxl)); }
   
 }
 .video__type__card {

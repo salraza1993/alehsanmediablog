@@ -93,7 +93,7 @@
   }
 }
 
-@mixin scrollbar($width: 8px, $thumb: var(--bs-primary), $track: transparent, $hover: var(--bs-secondary)) {
+@mixin scrollbar($width: var(--scrollbar-width), $thumb: var(--bs-primary), $track: transparent, $hover: var(--bs-secondary)) {
   &::-webkit-scrollbar { width: $width; height: $width; }
   /* Track */
   &::-webkit-scrollbar-track {  background: $track; }   
@@ -103,3 +103,18 @@
   &::-webkit-scrollbar-thumb:hover {  background: $hover; }  
 }
 /* width */
+
+@mixin horizontalScroll($scrollWidth: 0, $containerWidth: var(--container-md)) {
+  --scroller-container-width: calc($containerWidth + calc(calc(100vw - $containerWidth)));
+  // width: var(--scroller-container-width);
+  width: 100vw;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  position: relative;
+  left: 50%;
+  transform: translateX(-49.55%);
+  padding-inline: calc(calc(100vw - $containerWidth) / 2 + calc(var(--bs-gutter-x) / 3));
+  padding-bottom: 2rem;
+  --scrollbar-width: 0;
+  @include scrollbar();  
+}

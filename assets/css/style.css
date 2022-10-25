@@ -67,11 +67,24 @@
   --vertical-ad-height: 480px;
   --small-card-height: 146px;
   --artical-type-card-height: 350px;
+  --artical-type-card-width: 350px;
   --vidoe-thumbnail-height: 340px;
   --listing-hero-banner-height: 170px;
   --author-profile-short-card-height: 360px;
   --author-detail-profile-img-size: 160px;
   --input-height: 50px;
+  --scrollbar-width: 8px;
+  --viewport-gap: 4rem;
+  --container-sm: 540px;
+  --container-md: 720px;
+  --container-lg: 960px;
+  --container-xl: 1140px;
+  --container-xxl: 1320px;
+  --media-sm-width: 576px;
+  --media-md-width: 768px;
+  --media-lg-width: 992px;
+  --media-xl-width: 1200px;
+  --media-xxl-width: 1400px;
 }
 
 /* width */
@@ -411,8 +424,8 @@ body {
   /* Handle on hover */
 }
 body::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
 }
 body::-webkit-scrollbar-track {
   background: transparent;
@@ -504,8 +517,6 @@ a {
 
 /* header start */
 .main-header {
-  position: relative;
-  background-color: #ccc;
   position: fixed;
   top: 0;
   width: 100%;
@@ -841,27 +852,27 @@ a {
 }
 @media (min-width: 576px) {
   .slider-section .slider-container .slick-dots {
-    max-width: 540px;
+    max-width: var(--container-sm);
   }
 }
 @media (min-width: 768px) {
   .slider-section .slider-container .slick-dots {
-    max-width: 720px;
+    max-width: var(--container-md);
   }
 }
 @media (min-width: 992px) {
   .slider-section .slider-container .slick-dots {
-    max-width: 960px;
+    max-width: var(--container-lg);
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: var(--media-xl-width)) {
   .slider-section .slider-container .slick-dots {
-    max-width: 1140px;
+    max-width: var(--container-xl);
   }
 }
 @media (min-width: 1400px) {
   .slider-section .slider-container .slick-dots {
-    max-width: 1320px;
+    max-width: var(--container-xxl);
   }
 }
 .slider-section .slider-container .slick-dots li {
@@ -1114,6 +1125,7 @@ a {
   background-image: linear-gradient(to bottom, rgba(var(--bs-black-rgb), 0) 0%, rgba(var(--bs-black-rgb), 0.7) 100%);
   border-radius: 0.6875rem;
   transition: var(--transition);
+  gap: 1.5rem;
 }
 .medium-cards-container .post-content.urdu .post-heading {
   font-size: 2.25rem;
@@ -1152,11 +1164,11 @@ a {
   transition: var(--transition);
 }
 .ad__cont.vertical {
-  min-height: ar(--vertical-ad-height);
+  min-height: var(--vertical-ad-height);
 }
 .ad__cont.horizontal {
-  min-height: ar(--horizontal-ad-height);
-  max-height: ar(--horizontal-ad-height);
+  min-height: var(--horizontal-ad-height);
+  max-height: var(--horizontal-ad-height);
 }
 .ad__cont:hover {
   border: 1px solid rgba(var(--bs-primary-rgb), 1);
@@ -1175,11 +1187,8 @@ a {
 .ad__cont picture {
   display: inline-flex;
   overflow: hidden;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: block;
+  position: absolute;
+  inset: 0;
 }
 .ad__cont picture img {
   width: 100%;
@@ -1217,9 +1226,9 @@ a {
 }
 
 .video__type__card__container {
-  --viewport-gap: 4rem;
   position: relative;
   overflow-x: scroll;
+  --scrollbar-width: 5px;
   /* Track */
   /* Handle */
   /* Handle on hover */
@@ -1229,8 +1238,8 @@ a {
   padding: 0 calc(var(--viewport-gap) / 2) 2.5rem;
 }
 .video__type__card__container::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
 }
 .video__type__card__container::-webkit-scrollbar-track {
   background: transparent;
@@ -1243,27 +1252,27 @@ a {
 }
 @media (min-width: 576px) {
   .video__type__card__container {
-    --viewport-gap: calc(100vw - 540px);
+    --viewport-gap: calc(100vw - var(--container-sm));
   }
 }
 @media (min-width: 768px) {
   .video__type__card__container {
-    --viewport-gap: calc(100vw - 720px);
+    --viewport-gap: calc(100vw - var(--container-md));
   }
 }
 @media (min-width: 992px) {
   .video__type__card__container {
-    --viewport-gap: calc(100vw - 960px);
+    --viewport-gap: calc(100vw - var(--container-lg));
   }
 }
 @media (min-width: 1200px) {
   .video__type__card__container {
-    --viewport-gap: calc(100vw - 1140px);
+    --viewport-gap: calc(100vw - var(--container-xl));
   }
 }
 @media (min-width: 1400px) {
   .video__type__card__container {
-    --viewport-gap: calc(100vw - 1320px);
+    --viewport-gap: calc(100vw - var(--container-xxl));
   }
 }
 

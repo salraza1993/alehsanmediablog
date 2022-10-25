@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"  />
   <link rel="stylesheet" href="assets/css/bootstrap.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 <body>
   <?php include('includes/header.php') ?>
@@ -30,7 +31,7 @@
         </a>
       </div>
       <div class="row g-5 align-items-stretch">
-        <div class="col-6 gap-4 d-flex flex-column">
+        <div class="col-12 col-lg-6 gap-4 d-flex flex-column flex-">
           <div class="col-12">
             <div class="small-cards-container">
               <div class="post-content urdu [ d-flex justify-content-between flex-column  ]">
@@ -131,7 +132,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-lg-6">
           <div class="col-12 d-flex h-100">
             <div class="medium-cards-container">
               <div class="post-image">
@@ -186,8 +187,8 @@
           <i class="fa-solid fa-long-arrow-right"></i>
         </a>
       </div>
-      <div class="row g-5">
-        <div class="col-12 col-lg-4">
+      <div class="row g-5 featured__articals__card__container horizontal__scroll">
+        <div class="col-12 col-lg-6 col-xl-4">
           <div class="medium-cards-container">
             <div class="post-image">
               <a href="javascript:void(0)">
@@ -224,7 +225,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-6 col-xl-4">
           <div class="medium-cards-container">
             <div class="post-image">
               <a href="javascript:void(0)">
@@ -261,7 +262,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-6 col-xl-4">
           <div class="medium-cards-container">
             <div class="post-image">
               <a href="javascript:void(0)">
@@ -298,7 +299,8 @@
             </div>
           </div>
         </div>
-
+      </div>
+      <div class="row g-5 mt-2">
         <div class="col-12 col-lg-6">
           <div class="small-cards-container">
             <div class="post-content urdu [ d-flex justify-content-between flex-column  ]">
@@ -449,7 +451,7 @@
           </h2>
         </div>
       </div>
-      <div class="row g-4">
+      <div class="row g-4 horizontal__scroll">
         <div class="col-12 col-md-6 col-xl-3">
           <div class="artical__type__card __urdu">
             <div class="artical__type__card__image" style="background-image: url('./assets/img/urdu__artical__image.png')"></div>
@@ -489,7 +491,7 @@
         <div class="col-12 col-md-6 col-xl-3">
           <div class="artical__type__card __english">
             <div class="artical__type__card__image" style="background-image: url('./assets/img/hindi__artical__image.png')"></div>
-            <div class="artical__type__card__content [ d-flex flex-column align-items-center justify-content-end gap-3 text-light ]">
+            <div class="artical__type__card__content [ d-flex flex-column align-items-center justify-content-end gap-3 text-light justify-content-lg-center ]">
               <h4 class="font-gilroy-bold">English Articals (100+)</h4>
               <div class="btn btn-outline-light d-flex gap-3 align-items-center">
                 View All
@@ -515,7 +517,7 @@
         </a>
       </div>
       <div class="row g-5">        
-        <div class="col-12 col-lg-4 col-xl-3">
+        <div class="col-12 col-lg-12 col-xl-3">
           <div class="ad__cont vertical">
             <a href="javascript:void(0)">
               <i class="fa-solid fa-ad"></i>
@@ -527,7 +529,7 @@
             </a>
           </div>
         </div>
-        <div class="col-12 col-lg-8 col-xl-9">
+        <div class="col-12 col-lg-12 col-xl-9">
           <div class="row g-5">
             <div class="col-12 col-lg-7">
               <div class="row g-5">

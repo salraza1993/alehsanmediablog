@@ -17,7 +17,7 @@ $borderRadius: .25rem;
   --bs-secondary: #E8553E;
   --bs-secondary-rgb:232, 85, 62;
   --bs-link-color: var(--bs-primary);
-;
+
   --bg-base: #F5F5F5;
   --bg-base-rgb: 245, 245, 245;
   --light-blue: #ECF7FF;
@@ -45,10 +45,27 @@ $borderRadius: .25rem;
   --vertical-ad-height: 480px;
   --small-card-height: 146px;
   --artical-type-card-height: 350px;
+  --artical-type-card-width: 350px;
   --vidoe-thumbnail-height: 340px;
   --listing-hero-banner-height: 170px;
   --author-profile-short-card-height: 360px;
   --author-detail-profile-img-size: 160px;
   --input-height: 50px;
+
+  --scrollbar-width: 8px;
+
+  // media queries
+  --viewport-gap: 4rem;
+  --container-sm: 540px;
+  --container-md: 720px;
+  --container-lg: 960px;
+  --container-xl: 1140px;
+  --container-xxl: 1320px;
+
+  --media-sm-width: 576px;
+  --media-md-width: 768px;
+  --media-lg-width: 992px;
+  --media-xl-width: 1200px;
+  --media-xxl-width: 1400px;
 
 }
