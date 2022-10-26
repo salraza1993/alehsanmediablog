@@ -41,6 +41,17 @@
   .featured__articals__card__container {
     --medium-card-height: 420px;
   }
+  
+}
+// md and xs
+@media (320px <= width <= 991px) {
+  header {
+    display: none !important;
+  }
+  .artical__type__card {
+    min-width: var(--artical-type-card-width);
+    max-width: var(--artical-type-card-width);
+  }
   .read__articals__section {
     padding-bottom: 0;
     &::after { 
@@ -53,11 +64,57 @@
     @include horizontalScroll();
     .col-12, .col-md-6 { width: auto; flex: initial; }
   }
-  .artical__type__card {
-    min-width: var(--artical-type-card-width);
-    max-width: var(--artical-type-card-width);
+  
+}
+
+// sm and xs
+@media (320px <= width <= 767px) {
+  :root {
+    --vidoe-thumbnail-height: 220px;
+    --viewport-gap: calc(var(--bs-gutter-x));
+    --play-icon-size: 35px;
+  }
+ 
+  footer, .footer {
+    &-nav {
+      &-container {
+        .container {
+          padding: 0;
+        }
+        .foter-top-menu {
+          padding-block: 1rem;
+          flex-wrap: wrap;
+          gap: 1rem;
+          justify-content: center !important;
+          .menu {
+            white-space: nowrap;
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            left: 50%;
+            position: relative;
+            transform: translateX(-50%);
+            padding-inline: calc(var(--bs-gutter-x) * .5);
+            li a { padding: 0.6rem 1rem; }
+          }
+        }
+      }
+    }    
+  }
+  .urdu h3,
+  .urdu .fs-3 {
+    font-size: clamp(1.25rem, 2.5rem + 1vw, 2rem) !important;
+    line-height: clamp(2.75rem, 2.75rem + 1vw, 2.25rem) !important;
+  }
+  .video__type__card__content {
+    i {
+      width: calc(var(--play-icon-size) - 15px);
+      height: calc(var(--play-icon-size) - 15px);
+      top: 1rem;
+      left: calc(100% - calc(calc(var(--play-icon-size) - 15px) + 1rem));
+    }
   }
 }
+
 // sm
 @media (576px <= width <= 767px) {
   :root {
@@ -66,6 +123,7 @@
     --vertical-ad-height: 150px;
     --artical-type-card-width: 300px;
   }
+  
   .horizontal-scroll, .horizontal__scroll {
     .container { padding: 0; }
     @include horizontalScroll($containerWidth: var(--container-sm));
@@ -78,9 +136,16 @@
 }
 
 // xs
-@media (max-width: 575px) {
+@media (320px <= width <= 575px) {
+  :root {
+    --vidoe-thumbnail-height: 200px;
+    --play-icon-size: 35px;
+  }
+  
+  
   .horizontal-scroll, .horizontal__scroll {
     @include horizontalScroll($containerWidth: 100vw);
     .col-12, .col-md-6 { width: auto; flex: initial; }
   }
+ 
 }
