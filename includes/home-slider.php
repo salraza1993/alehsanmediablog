@@ -134,10 +134,19 @@
       dots: true,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 5000,
       centerMode: true,
-      variableWidth: true
+      variableWidth: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            centerMode: false,
+            variableWidth: false,
+          }
+        },
+      ]
     });
   });
 </script>

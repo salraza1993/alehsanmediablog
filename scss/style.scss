@@ -166,11 +166,15 @@ a {
       .menu {
         width: 100%;
         position: relative;
-        padding-right: 1rem;
-        @include flexCenter($jc: space-between);
+        @include flexCenter($jc: space-between, $gap: 1rem);
+        hr {
+          margin: 0.75rem 0;
+          border-top: 3px solid;
+          opacity: 0.1;
+        }
         li, .menu-item {
           position: relative;     
-          a, .menu-link {
+          a, span, .menu-link {
             height: calc(var(--header-height) / 2);
             @include flexCenter();
             color: var(--bs-white);
@@ -179,20 +183,45 @@ a {
             text-transform: uppercase;
             letter-spacing: .05rem;
           }
+          > span {
+            position: relative;
+            isolation: isolate;
+            width: calc($headerHeight / 2);
+            flex-shrink: 0;
+            i:before { transition: scale .3s ease; }
+            &::after {
+              content: '';
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              z-index: -1;
+            }
+          }
           &:hover > a {
             transition: var(--transition);
             box-shadow: inset 0 -6px 0 var(--bs-secondary);
+          }
+          &:hover > span {
+            transition: var(--transition);
+            color: var(--bs-primary);
+            background-color: var(--bs-white);
+            i:before {
+              scale: 1.5;
+              
+            }
           }
 
           &.menu-item-has-children {
             display: flex;
             align-items: center;
             gap: .5rem;
-            > a::after {
-              content: "\f078";
-              @include fontAwesome();
-              color: inherit;
-              font-size: 85%;
+            &:not(.hamburger-menu) {
+              > a::after {
+                content: "\f078";
+                @include fontAwesome();
+                color: inherit;
+                font-size: 85%;
+              }
             }
             .sub-menu {
               position: absolute;
@@ -223,9 +252,17 @@ a {
                 }
               }
             }
+            &:last-child, &:nth-last-child(2) {
+              .sub-menu { left: initial; right: 0;}
+            }
             &:hover {
               .sub-menu {
-                li { overflow: visible; height: 45px; visibility: visible; }
+                li { 
+                  overflow: visible; 
+                  height: 45px; 
+                  visibility: visible; 
+                  &.breaker { height: auto;}
+                }
               }
             }
           }
@@ -301,13 +338,14 @@ a {
     }
   }
 }
+.mobile__hamburger {display: none !important;}
 /* header ends */
 
 /* slider start */
 .slider-section {
   position: relative;
   width: 100%;
-  max-height: 450px;
+  max-height: var(--slider-height);
   padding-top: 20px;
   .slider-container  {
     height: 100%;
@@ -316,7 +354,7 @@ a {
       border-radius: 10px;
       .slide-details {
         position: relative;
-        max-height: 450px;
+        max-height: var(--slider-height);
         border-radius: $borderRadius * 3;
         overflow: hidden;
         .slide-image {
@@ -572,6 +610,7 @@ a {
   @include cardShadow();
   display: flex;
   min-height: var(--medium-card-height);
+  border-radius: calc($borderRadius * 2.75);
   &.medium-small-cards-container {
     min-height: calc(var(--medium-card-height) - 130px);
   }
@@ -739,9 +778,9 @@ a {
     top: 0;
     transform: translateX(-50%);
     width: 100%;
-    min-width: 1300px;
+    min-width: 90vw;
+    max-width: 94vw;
     height: 60%;
-    max-width: 90vw;
     z-index: -1;
     background-color: var(--bs-primary);
     border-radius: .9rem;
@@ -950,7 +989,7 @@ footer {
       flex-direction: column;
       justify-content: end;
       align-items: start;
-      min-height: 320px;
+      min-height: var(--print-n-digital-card-height);
       gap: 1rem;
       background-image: linear-gradient(to bottom, rgba(var(--bs-black-rgb), 0) 0%, rgba(var(--bs-black-rgb), 0.85) 100%);
     }
@@ -1741,7 +1780,10 @@ footer {
       > div {
         width: 100%;
         position: relative;
-        &.left__block { max-width: 43%; }        
+        &.left__block { 
+          max-width: 43%;
+          min-height: var(--login-form-bg-height);
+        }
       }
     }
     &__cover {

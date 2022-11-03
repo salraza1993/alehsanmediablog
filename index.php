@@ -31,103 +31,105 @@
         </a>
       </div>
       <div class="row g-5 align-items-stretch">
-        <div class="col-12 col-lg-6 gap-4 d-flex flex-column flex-">
-          <div class="col-12">
-            <div class="small-cards-container">
-              <div class="post-content urdu [ d-flex justify-content-between flex-column  ]">
-                <a href="javascript:void(0)">
-                  <h4>کیا امام حسین کا سر مبارک قاہرہ میں مدفون ہے؟ </h4>
-                </a>
-                <div class="post-auth-date [ d-flex ]">
-                  <ul class="d-flex">
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-user"></i>
-                        Author Name
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-calendar"></i>
-                        Jan 20, 2022
-                      </a>
-                    </li>
-                  </ul>
+        <div class="col-12 col-lg-6 gap-4 d-flex flex-column">
+          <div class="row g-5 mobile__scroll">
+            <div class="col-12">
+              <div class="small-cards-container">
+                <div class="post-content urdu [ d-flex justify-content-between flex-column  ]">
+                  <a href="javascript:void(0)">
+                    <h4>کیا امام حسین کا سر مبارک قاہرہ میں مدفون ہے؟ </h4>
+                  </a>
+                  <div class="post-auth-date [ d-flex ]">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-user"></i>
+                          Author Name
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-calendar"></i>
+                          Jan 20, 2022
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="post-image">
-                <div class="post-tags [ d-flex gap-2 ]">
-                  <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                <div class="post-image">
+                  <div class="post-tags [ d-flex gap-2 ]">
+                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                  </div>
+                  <a href="javascript:void(0)">
+                    <img src="./assets/img/slide-1.png" alt="">
+                  </a>
                 </div>
-                <a href="javascript:void(0)">
-                  <img src="./assets/img/slide-1.png" alt="">
-                </a>
               </div>
             </div>
-          </div>
-          <div class="col-12">
-            <div class="small-cards-container">
-              <div class="post-content hindi [ d-flex justify-content-between flex-column  ]">
-                <a href="javascript:void(0)">
-                  <h4>मशाइखे चिश्त ने हमेशा हिन्दुस्तानी मिज़ाज की रियायत की है</h4>
-                </a>
-                <div class="post-auth-date [ d-flex ]">
-                  <ul class="d-flex">
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-user"></i>
-                        Author Name
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-calendar"></i>
-                        Jan 20, 2022
-                      </a>
-                    </li>
-                  </ul>
+            <div class="col-12">
+              <div class="small-cards-container">
+                <div class="post-content hindi [ d-flex justify-content-between flex-column  ]">
+                  <a href="javascript:void(0)">
+                    <h4>मशाइखे चिश्त ने हमेशा हिन्दुस्तानी मिज़ाज की रियायत की है</h4>
+                  </a>
+                  <div class="post-auth-date [ d-flex ]">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-user"></i>
+                          Author Name
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-calendar"></i>
+                          Jan 20, 2022
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="post-image">
-                <div class="post-tags [ d-flex gap-2 ]">
-                  <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                <div class="post-image">
+                  <div class="post-tags [ d-flex gap-2 ]">
+                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                  </div>
+                  <a href="javascript:void(0)">
+                    <img src="./assets/img/slide-1.png" alt="">
+                  </a>
                 </div>
-                <a href="javascript:void(0)">
-                  <img src="./assets/img/slide-1.png" alt="">
-                </a>
               </div>
             </div>
-          </div>
-          <div class="col-12">
-            <div class="small-cards-container">
-              <div class="post-content [ d-flex justify-content-between flex-column  ]">
-                <a href="javascript:void(0)">
-                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, culpa.</h4>
-                </a>
-                <div class="post-auth-date [ d-flex ]">
-                  <ul class="d-flex">
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-user"></i>
-                        Author Name
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-calendar"></i>
-                        Jan 20, 2022
-                      </a>
-                    </li>
-                  </ul>
+            <div class="col-12">
+              <div class="small-cards-container">
+                <div class="post-content [ d-flex justify-content-between flex-column  ]">
+                  <a href="javascript:void(0)">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, culpa.</h4>
+                  </a>
+                  <div class="post-auth-date [ d-flex ]">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-user"></i>
+                          Author Name
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-calendar"></i>
+                          Jan 20, 2022
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="post-image">
-                <div class="post-tags [ d-flex gap-2 ]">
-                  <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                <div class="post-image">
+                  <div class="post-tags [ d-flex gap-2 ]">
+                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                  </div>
+                  <a href="javascript:void(0)">
+                    <img src="./assets/img/slide-1.png" alt="" />
+                  </a>
                 </div>
-                <a href="javascript:void(0)">
-                  <img src="./assets/img/slide-1.png" alt="" />
-                </a>
               </div>
             </div>
           </div>
@@ -300,7 +302,7 @@
           </div>
         </div>
       </div>
-      <div class="row g-5 mt-2">
+      <div class="row g-5 mt-2 mobile__scroll">
         <div class="col-12 col-lg-6">
           <div class="small-cards-container">
             <div class="post-content urdu [ d-flex justify-content-between flex-column  ]">
@@ -491,7 +493,7 @@
         <div class="col-12 col-md-6 col-xl-3">
           <div class="artical__type__card __english">
             <div class="artical__type__card__image" style="background-image: url('./assets/img/hindi__artical__image.png')"></div>
-            <div class="artical__type__card__content [ d-flex flex-column align-items-center justify-content-end gap-3 text-light justify-content-lg-center ]">
+            <div class="artical__type__card__content [ d-flex flex-column align-items-center justify-content-end gap-3 text-light ]">
               <h4 class="font-gilroy-bold">English Articals (100+)</h4>
               <div class="btn btn-outline-light d-flex gap-3 align-items-center">
                 View All
@@ -532,7 +534,7 @@
         <div class="col-12 col-lg-12 col-xl-9">
           <div class="row g-5">
             <div class="col-12 col-lg-7">
-              <div class="row g-5">
+              <div class="row g-5 mobile__scroll">
                 <div class="col-12">
                   <div class="small-cards-container">
                     <div class="post-content hindi [ d-flex justify-content-between flex-column  ]">
@@ -634,7 +636,6 @@
                 </div>
               </div>
             </div>
-
             <div class="col-12 col-lg-5">
               <div class="medium-cards-container">
                 <div class="post-image">
@@ -674,72 +675,76 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6">
-          <div class="small-cards-container">
-            <div class="post-content hindi [ d-flex justify-content-between flex-column  ]">
-              <a href="javascript:void(0)">
-                <h4>मशाइखे चिश्त ने हमेशा हिन्दुस्तानी मिज़ाज की रियायत की है</h4>
-              </a>
-              <div class="post-auth-date [ d-flex ]">
-                <ul class="d-flex">
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-user"></i>
-                      Author Name
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-calendar"></i>
-                      Jan 20, 2022
-                    </a>
-                  </li>
-                </ul>
+        <div class="col-12">
+          <div class="row g-5 mobile__scroll">
+            <div class="col-12 col-lg-6">
+              <div class="small-cards-container">
+                <div class="post-content hindi [ d-flex justify-content-between flex-column  ]">
+                  <a href="javascript:void(0)">
+                    <h4>मशाइखे चिश्त ने हमेशा हिन्दुस्तानी मिज़ाज की रियायत की है</h4>
+                  </a>
+                  <div class="post-auth-date [ d-flex ]">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-user"></i>
+                          Author Name
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-calendar"></i>
+                          Jan 20, 2022
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="post-image">
+                  <div class="post-tags [ d-flex gap-2 ]">
+                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                  </div>
+                  <a href="javascript:void(0)">
+                    <img src="./assets/img/slide-1.png" alt="">
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="post-image">
-              <div class="post-tags [ d-flex gap-2 ]">
-                <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+            <div class="col-12 col-lg-6">
+              <div class="small-cards-container">
+                <div class="post-content hindi [ d-flex justify-content-between flex-column  ]">
+                  <a href="javascript:void(0)">
+                    <h4>मशाइखे चिश्त ने हमेशा हिन्दुस्तानी मिज़ाज की रियायत की है</h4>
+                  </a>
+                  <div class="post-auth-date [ d-flex ]">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-user"></i>
+                          Author Name
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-calendar"></i>
+                          Jan 20, 2022
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="post-image">
+                  <div class="post-tags [ d-flex gap-2 ]">
+                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                  </div>
+                  <a href="javascript:void(0)">
+                    <img src="./assets/img/slide-1.png" alt="">
+                  </a>
+                </div>
               </div>
-              <a href="javascript:void(0)">
-                <img src="./assets/img/slide-1.png" alt="">
-              </a>
-            </div>
+            </div>    
           </div>
         </div>
-        <div class="col-12 col-lg-6">
-          <div class="small-cards-container">
-            <div class="post-content hindi [ d-flex justify-content-between flex-column  ]">
-              <a href="javascript:void(0)">
-                <h4>मशाइखे चिश्त ने हमेशा हिन्दुस्तानी मिज़ाज की रियायत की है</h4>
-              </a>
-              <div class="post-auth-date [ d-flex ]">
-                <ul class="d-flex">
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-user"></i>
-                      Author Name
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-calendar"></i>
-                      Jan 20, 2022
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="post-image">
-              <div class="post-tags [ d-flex gap-2 ]">
-                <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
-              </div>
-              <a href="javascript:void(0)">
-                <img src="./assets/img/slide-1.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>    
       </div>
     </div>
   </section>
@@ -797,101 +802,105 @@
               </div>
             </div>
             <div class="col-12">
-              <div class="small-cards-container">
-                <div class="post-content arabic [ d-flex justify-content-between flex-column  ]">
-                  <a href="javascript:void(0)">
-                    <h4>قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي</h4>
-                  </a>
-                  <div class="post-auth-date [ d-flex ]">
-                    <ul class="d-flex">
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-user"></i>
-                          Author Name
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-calendar"></i>
-                          Jan 20, 2022
-                        </a>
-                      </li>
-                    </ul>
+              <div class="row g-4 mobile__scroll">
+                <div class="col-12">
+                  <div class="small-cards-container">
+                    <div class="post-content arabic [ d-flex justify-content-between flex-column  ]">
+                      <a href="javascript:void(0)">
+                        <h4>قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي</h4>
+                      </a>
+                      <div class="post-auth-date [ d-flex ]">
+                        <ul class="d-flex">
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-user"></i>
+                              Author Name
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-calendar"></i>
+                              Jan 20, 2022
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="post-image">
+                      <div class="post-tags [ d-flex gap-2 ]">
+                        <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                      </div>
+                      <a href="javascript:void(0)">
+                        <img src="./assets/img/slide-1.png" alt="">
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <div class="post-image">
-                  <div class="post-tags [ d-flex gap-2 ]">
-                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
-                  </div>
-                  <a href="javascript:void(0)">
-                    <img src="./assets/img/slide-1.png" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="small-cards-container">
-                <div class="post-content arabic [ d-flex justify-content-between flex-column  ]">
-                  <a href="javascript:void(0)">
-                    <h4>قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي</h4>
-                  </a>
-                  <div class="post-auth-date [ d-flex ]">
-                    <ul class="d-flex">
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-user"></i>
-                          Author Name
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-calendar"></i>
-                          Jan 20, 2022
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="post-image">
-                  <div class="post-tags [ d-flex gap-2 ]">
-                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
-                  </div>
-                  <a href="javascript:void(0)">
-                    <img src="./assets/img/slide-1.png" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="small-cards-container">
-                <div class="post-content arabic [ d-flex justify-content-between flex-column  ]">
-                  <a href="javascript:void(0)">
-                    <h4>قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي</h4>
-                  </a>
-                  <div class="post-auth-date [ d-flex ]">
-                    <ul class="d-flex">
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-user"></i>
-                          Author Name
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-calendar"></i>
-                          Jan 20, 2022
-                        </a>
-                      </li>
-                    </ul>
+                <div class="col-12">
+                  <div class="small-cards-container">
+                    <div class="post-content arabic [ d-flex justify-content-between flex-column  ]">
+                      <a href="javascript:void(0)">
+                        <h4>قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي</h4>
+                      </a>
+                      <div class="post-auth-date [ d-flex ]">
+                        <ul class="d-flex">
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-user"></i>
+                              Author Name
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-calendar"></i>
+                              Jan 20, 2022
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="post-image">
+                      <div class="post-tags [ d-flex gap-2 ]">
+                        <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                      </div>
+                      <a href="javascript:void(0)">
+                        <img src="./assets/img/slide-1.png" alt="">
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <div class="post-image">
-                  <div class="post-tags [ d-flex gap-2 ]">
-                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                <div class="col-12">
+                  <div class="small-cards-container">
+                    <div class="post-content arabic [ d-flex justify-content-between flex-column  ]">
+                      <a href="javascript:void(0)">
+                        <h4>قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي</h4>
+                      </a>
+                      <div class="post-auth-date [ d-flex ]">
+                        <ul class="d-flex">
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-user"></i>
+                              Author Name
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-calendar"></i>
+                              Jan 20, 2022
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="post-image">
+                      <div class="post-tags [ d-flex gap-2 ]">
+                        <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                      </div>
+                      <a href="javascript:void(0)">
+                        <img src="./assets/img/slide-1.png" alt="">
+                      </a>
+                    </div>
                   </div>
-                  <a href="javascript:void(0)">
-                    <img src="./assets/img/slide-1.png" alt="">
-                  </a>
                 </div>
               </div>
             </div>
@@ -946,101 +955,105 @@
               </div>
             </div>
             <div class="col-12">
-              <div class="small-cards-container">
-                <div class="post-content [ d-flex justify-content-between flex-column  ]">
-                  <a href="javascript:void(0)">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam facilis est natus amet velit!</h4>
-                  </a>
-                  <div class="post-auth-date [ d-flex ]">
-                    <ul class="d-flex">
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-user"></i>
-                          Author Name
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-calendar"></i>
-                          Jan 20, 2022
-                        </a>
-                      </li>
-                    </ul>
+              <div class="row g-4 mobile__scroll">
+                <div class="col-12">
+                  <div class="small-cards-container">
+                    <div class="post-content [ d-flex justify-content-between flex-column  ]">
+                      <a href="javascript:void(0)">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam facilis est natus amet velit!</h4>
+                      </a>
+                      <div class="post-auth-date [ d-flex ]">
+                        <ul class="d-flex">
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-user"></i>
+                              Author Name
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-calendar"></i>
+                              Jan 20, 2022
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="post-image">
+                      <div class="post-tags [ d-flex gap-2 ]">
+                        <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                      </div>
+                      <a href="javascript:void(0)">
+                        <img src="./assets/img/slide-1.png" alt="">
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <div class="post-image">
-                  <div class="post-tags [ d-flex gap-2 ]">
-                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
-                  </div>
-                  <a href="javascript:void(0)">
-                    <img src="./assets/img/slide-1.png" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="small-cards-container">
-                <div class="post-content [ d-flex justify-content-between flex-column  ]">
-                  <a href="javascript:void(0)">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam facilis est natus amet velit!</h4>
-                  </a>
-                  <div class="post-auth-date [ d-flex ]">
-                    <ul class="d-flex">
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-user"></i>
-                          Author Name
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-calendar"></i>
-                          Jan 20, 2022
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="post-image">
-                  <div class="post-tags [ d-flex gap-2 ]">
-                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
-                  </div>
-                  <a href="javascript:void(0)">
-                    <img src="./assets/img/slide-1.png" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="small-cards-container">
-                <div class="post-content [ d-flex justify-content-between flex-column  ]">
-                  <a href="javascript:void(0)">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam facilis est natus amet velit!</h4>
-                  </a>
-                  <div class="post-auth-date [ d-flex ]">
-                    <ul class="d-flex">
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-user"></i>
-                          Author Name
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:;">
-                          <i class="fa-solid fa-calendar"></i>
-                          Jan 20, 2022
-                        </a>
-                      </li>
-                    </ul>
+                <div class="col-12">
+                  <div class="small-cards-container">
+                    <div class="post-content [ d-flex justify-content-between flex-column  ]">
+                      <a href="javascript:void(0)">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam facilis est natus amet velit!</h4>
+                      </a>
+                      <div class="post-auth-date [ d-flex ]">
+                        <ul class="d-flex">
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-user"></i>
+                              Author Name
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-calendar"></i>
+                              Jan 20, 2022
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="post-image">
+                      <div class="post-tags [ d-flex gap-2 ]">
+                        <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                      </div>
+                      <a href="javascript:void(0)">
+                        <img src="./assets/img/slide-1.png" alt="">
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <div class="post-image">
-                  <div class="post-tags [ d-flex gap-2 ]">
-                    <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                <div class="col-12">
+                  <div class="small-cards-container">
+                    <div class="post-content [ d-flex justify-content-between flex-column  ]">
+                      <a href="javascript:void(0)">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquam facilis est natus amet velit!</h4>
+                      </a>
+                      <div class="post-auth-date [ d-flex ]">
+                        <ul class="d-flex">
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-user"></i>
+                              Author Name
+                            </a>
+                          </li>
+                          <li>
+                            <a href="javascript:;">
+                              <i class="fa-solid fa-calendar"></i>
+                              Jan 20, 2022
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="post-image">
+                      <div class="post-tags [ d-flex gap-2 ]">
+                        <a href="javasript:;" class="btn btn-primary btn-sm">Fiqh-o-Hadeeth</a>
+                      </div>
+                      <a href="javascript:void(0)">
+                        <img src="./assets/img/slide-1.png" alt="">
+                      </a>
+                    </div>
                   </div>
-                  <a href="javascript:void(0)">
-                    <img src="./assets/img/slide-1.png" alt="">
-                  </a>
                 </div>
               </div>
             </div>
@@ -1052,7 +1065,7 @@
 
   <section class="post-section">
     <div class="container">
-      <div class="ad__cont vertical">
+      <div class="ad__cont horizontal">
         <a href="javascript:void(0)">
           <i class="fa-solid fa-ad"></i>
           <picture>

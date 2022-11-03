@@ -105,16 +105,24 @@
 /* width */
 
 @mixin horizontalScroll($scrollWidth: 0, $containerWidth: var(--container-md)) {
-  --scroller-container-width: calc($containerWidth + calc(calc(100vw - $containerWidth)));
+  // --scroller-container-width: calc($containerWidth + calc(calc(100vw - $containerWidth)));
   // width: var(--scroller-container-width);
+  // --bs-gutter-x: 0;
   width: 100vw;
   overflow-x: scroll;
   flex-wrap: nowrap;
   position: relative;
   left: 50%;
-  transform: translateX(-49.55%);
-  padding-inline: calc(calc(100vw - $containerWidth) / 2 + calc(var(--bs-gutter-x) / 3));
-  padding-bottom: 2rem;
+  transform: translateX(-50%);
+  padding-inline: calc(calc(100vw - $containerWidth) / 2 + calc(var(--bs-gutter-x) / 1.25));
+  padding-bottom: calc(1rem + 3vh);
+  margin-inline: 0;
+  gap: calc(1rem + 1.5vw);
   --scrollbar-width: 0;
-  @include scrollbar();  
+  @include scrollbar();
+  .col-12 {
+    --bs-gutter-x: 0;
+    width: auto;
+    flex: initial;
+  }
 }

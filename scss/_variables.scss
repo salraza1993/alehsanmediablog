@@ -8,7 +8,7 @@
 $gap: .25rem;
 $headerHeight: 100px;
 $logoSize: 135px;
-$logoGap: calc(#{$logoSize} + 1.75vw);
+$logoGap: calc(#{$logoSize} + 2.5vw);
 $borderRadius: .25rem;
 
 :root {
@@ -41,6 +41,7 @@ $borderRadius: .25rem;
   --transition: all .3s ease-in-out;
   --header-height: 100px;
   --medium-card-height: 480px;
+  --medium-card-width: 320px;
   --horizontal-ad-height: 150px;
   --vertical-ad-height: 480px;
   --small-card-height: 146px;
@@ -50,8 +51,10 @@ $borderRadius: .25rem;
   --listing-hero-banner-height: 170px;
   --author-profile-short-card-height: 360px;
   --author-detail-profile-img-size: 160px;
+  --print-n-digital-card-height: 320px;
   --input-height: 50px;
-
+  --slider-height: 450px;
+  --login-form-bg-height: 150px;
   --scrollbar-width: 8px;
 
   // media queries
