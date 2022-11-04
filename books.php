@@ -1,26 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Al Ehsan Media</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"  />
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"  />
-  <link rel="stylesheet" href="assets/css/bootstrap.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <?php include('includes/header.php') ?>
+<?php include('includes/head.php') ?>
+<?php include('includes/header.php') ?>
 
   <!-- Hero Banner -->
   <section class="hero__banner__section">
     <div class="container">
       <div class="hero__banner">
-        <h3 class="font-gilroy-bold mb-3 fs-1 text-primary">Books</h3>
+        <h3 class="font-gilroy-bold mb-3 fs-1">Books</h3>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="./">Home</a></li>
@@ -32,123 +17,7 @@
   </section>
 
   <!-- Featured Articals -->
-  <section class="post-section py-md-5 mt-4">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="medium-cards-container">
-            <div class="post-image">
-              <a href="javascript:void(0)">
-                <img src="./assets/img/shot-by.jpg" alt="Image" />
-              </a>
-            </div>
-            <div class="post-content arabic [ d-flex flex-column justify-content-between ]">
-              <div class="post-auth-date [ d-flex ]">
-                <ul class="d-flex">
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-user"></i>
-                      Author Name
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-calendar"></i>
-                      Jan 20, 2022
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <div class="post-tags mb-md-4 mb-4">
-                  <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
-                </div>
-                <a href="javascript:void(0)">
-                  <h3 class="m-0 post-heading">
-                    قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي
-                  </h3>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="medium-cards-container">
-            <div class="post-image">
-              <a href="javascript:void(0)">
-                <img src="./assets/img/shot-by.jpg" alt="Image" />
-              </a>
-            </div>
-            <div class="post-content urdu [ d-flex flex-column justify-content-between ]">
-              <div class="post-auth-date [ d-flex ]">
-                <ul class="d-flex">
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-user"></i>
-                      Author Name
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-calendar"></i>
-                      Jan 20, 2022
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <div class="post-tags mb-md-4 mb-4">
-                  <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
-                </div>
-                <a href="javascript:void(0)">
-                  <h3 class="m-0 post-heading">
-                    جشن یوم غزالی کے موقع پر شیخ عبد القادر جیلانی اور خواجہ نظام الدین اولیا کا عرس
-                  </h3>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="medium-cards-container">
-            <div class="post-image">
-              <a href="javascript:void(0)">
-                <img src="./assets/img/shot-by.jpg" alt="Image" />
-              </a>
-            </div>
-            <div class="post-content urdu [ d-flex flex-column justify-content-between ]">
-              <div class="post-auth-date [ d-flex ]">
-                <ul class="d-flex">
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-user"></i>
-                      Author Name
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:;">
-                      <i class="fa-solid fa-calendar"></i>
-                      Jan 20, 2022
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <div class="post-tags mb-md-4 mb-4">
-                  <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
-                </div>
-                <a href="javascript:void(0)">
-                  <h3 class="m-0 post-heading">
-                    جشن یوم غزالی کے موقع پر شیخ عبد القادر جیلانی اور خواجہ نظام الدین اولیا کا عرس
-                  </h3>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>     
-      </div>
-    </div>
-  </section>
+  <?php include('includes/featured-articals.php') ?>
 
   <section class="post__listing__section">
     <div class="container">

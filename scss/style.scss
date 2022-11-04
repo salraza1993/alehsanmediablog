@@ -1006,20 +1006,26 @@ footer {
   .hero__banner {
     position: relative;
     padding: 1.25rem 0;
-    background-color: #ccc;
+    background-color: var(--hero-banner-bg);
     width: 100%;
     min-height: var(--listing-hero-banner-height);
-    background-color: var(--bs-white);
+    background-color: var(--hero-banner-bg);
+    color: var(--hero-banner-text-color);
     // background-image: url('./../img/pattern__dark.png');
     @include flexCenter($direction: column);
-    &::before, &::after {
-      content: '';
-      height: 100%;
-      position: absolute;
-      z-index: 1;
+
+    h3 { color: inherit; }
+
+    @media (min-width: 992px) {
+      &::before, &::after {
+        content: '';
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+      }
+      &::before { right: 100%; content: url('./../img/cemetery__left.svg');}
+      &::after { left: 100%; content: url('./../img/cemetery__right.svg');}      
     }
-    &::before { right: 100%; content: url('./../img/cemetery__left.svg');}
-    &::after { left: 100%; content: url('./../img/cemetery__right.svg');}
   }
   &.__dark {
     --listing-hero-banner-height: 200px;
@@ -1165,24 +1171,30 @@ footer {
       h4 { font-size: 1.45rem; line-height: 1.55em; }
     }
   }
-  &:hover {
-    z-index: 1;
-    transform: scale(1.12);
-    &::after { opacity: 1; transform: scaleY(1.06) scaleX(1.08); }
+  @media (width >= 991px) {
+    &:hover {
+      z-index: 1;
+      transform: scale(1.12);
+      &::after { opacity: 1; transform: scaleY(1.06) scaleX(1.08); }
+    }    
   }
+  p, h4, .post-auth-date a { color: var(--post-listing-card-block-color); }
   &.light {
-    p, h4, .post-auth-date a { color: var(--bs-white); }
+    min-width: var(--post-listing-width);
+    padding: var(--card-padding);
+    // --post-listing-card-block-color: var(--bs-white);
+    background-color: var(--bs-white);
     &:hover {
       p, h4, .post-auth-date a { color: var(--bs-dark); }
       h4:hover { color: var(--bs-primary); }
       .post-auth-date a:hover { color: var(--bs-white); }
-    }
-     
+    }     
   }
 }
 
 .pagination__container {
   position: relative;
+  width: 100%;
   border-top: 1px solid rgba(var(--bs-dark-rgb), .05);
 }
 
@@ -1411,7 +1423,8 @@ footer {
     background-color: var(--bs-white);
     border-radius: .75rem;
     box-shadow: 0 8px 15px rgba(var(--bs-black-rgb), .08), inset 0 0 0 1px var(--bs-gray-300);
-    padding: calc(1rem + 1vw) calc(1rem + .5vw);
+    padding-inline: var(--author-profile-card-padding-inline);
+    padding-block: var(--author-profile-card-padding-block);
     min-height: var(--author-profile-short-card-height);
     display: flex;
     flex-direction: column;
@@ -1608,11 +1621,14 @@ footer {
   padding: .7rem 0;
   border-bottom: 1px solid var(--bs-gray-300);
   background-color: var(--bs-white);
+  display: flex;
+  justify-content: center;
   .author {
     &__tab__header {
       position: relative;
-      width: 100%;
+      width: max-content;
       display: flex;
+      justify-content: center;
       gap: 1rem;
       &__item {
         padding: .65rem 1.5rem .8rem 1.5rem;
@@ -1621,6 +1637,7 @@ footer {
         border-radius: .35rem;
         min-width: 70px;
         transition: var(--transition);
+        white-space: nowrap;
         cursor: pointer;
         &:hover {
           background-color: var(--bs-primary);

@@ -56,6 +56,13 @@ $borderRadius: .25rem;
   --slider-height: 450px;
   --login-form-bg-height: 150px;
   --scrollbar-width: 8px;
+  --hero-banner-bg: var(--bs-white);
+  --hero-banner-text-color: var(--bs-primary);
+  --author-profile-card-padding-block: calc(1rem + 1vw);
+  --author-profile-card-padding-inline: calc(1rem + 0.5vw);
+  --post-listing-card-block-color: var(--bs-dark);
+  --card-padding: .5rem;
+  --post-listing-width: 300px;
 
   // media queries
   --viewport-gap: 4rem;

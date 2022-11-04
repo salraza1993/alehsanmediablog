@@ -32,4 +32,25 @@ document.addEventListener("DOMContentLoaded", function (e) {
       })
     });
   });
+
+  const mobileHumburgerMenuButton = document.querySelector('.mobile__hamburger');
+  const mobileMenuCloseButton = document.querySelector('.close-button');
+  const mobileMenuContainer = document.querySelector('.mobile-menus-container');
+  const mobileMenuDropdownButton = document.querySelectorAll('.dropdown-icon');
+  
+  mobileHumburgerMenuButton.addEventListener('click', () => { 
+    mobileMenuContainer.style.display = 'flex';
+  })
+  mobileMenuCloseButton.addEventListener('click', () => { 
+    mobileMenuContainer.style.display = 'none';
+  })
+
+  mobileMenuDropdownButton.forEach(menuItem => {
+    menuItem.addEventListener('click', event => {
+      const parentLi = event.target.closest('li');
+      event.target.classList.toggle('active');
+      parentLi.classList.toggle('active');
+    })
+  })
+  
 });

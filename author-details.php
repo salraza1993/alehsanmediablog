@@ -1,24 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Al Ehsan Media</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"  />
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"  />
-  <link rel="stylesheet" href="assets/css/bootstrap.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <?php include('includes/header.php') ?>
+<?php include('includes/head.php') ?>
+<?php include('includes/header.php') ?>
   <!-- Hero Banner -->
   <section class="author__profile__banner__section">
     <div class="container">
-      <div class="author__profile__banner urdu [ d-flex  ]">
+      <div class="author__profile__banner urdu [ d-flex mobile-flex-wrap ]">
         <div class="author__profile__banner__image">
           <img src="./assets/img/zishan_misbahi.jpg" alt="Author Image" />
         </div>
@@ -38,17 +23,15 @@
   </section>
   
   <section class="author__tab__header__section mb-5">
-    <div class="container">
-      <ul class="author__tab__header">
-        <li id="tab-1" class="custom__tab author__tab__header__item">All Posts (25)</li>
-        <li id="tab-2" class="custom__tab author__tab__header__item">About Author</li>
-        <li id="tab-3" class="custom__tab author__tab__header__item active">Books (5)</li>
-        <li id="tab-4" class="custom__tab author__tab__header__item">Nazm (5)</li>
-        <li id="tab-5" class="custom__tab author__tab__header__item">Hamd (5)</li>
-        <li id="tab-6" class="custom__tab author__tab__header__item">Naat Shareef (5)</li>
-        <li id="tab-7" class="custom__tab author__tab__header__item">Manqabat (5)</li>
-      </ul>
-    </div>
+    <ul class="author__tab__header">
+      <li id="tab-1" class="custom__tab author__tab__header__item">All Posts (25)</li>
+      <li id="tab-2" class="custom__tab author__tab__header__item active">About Author</li>
+      <li id="tab-3" class="custom__tab author__tab__header__item">Books (5)</li>
+      <li id="tab-4" class="custom__tab author__tab__header__item">Nazm (5)</li>
+      <li id="tab-5" class="custom__tab author__tab__header__item">Hamd (5)</li>
+      <li id="tab-6" class="custom__tab author__tab__header__item">Naat Shareef (5)</li>
+      <li id="tab-7" class="custom__tab author__tab__header__item">Manqabat (5)</li>
+    </ul>
   </section>
   <section class="author__tab__body">
     <div data-id="tab-1" class="author__tab__data custom__tab__data">
@@ -59,119 +42,124 @@
           </h2>
         </div>
 
-        <div class="row g-5">          
-          <div class="col-12 col-lg-4">
-            <div class="medium-cards-container">
-              <div class="post-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/img/shot-by.jpg" alt="Image">
-                </a>
-              </div>
-              <div class="post-content arabic [ d-flex flex-column justify-content-between ]">
-                <div class="post-auth-date [ d-flex ]">
-                  <ul class="d-flex">
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-user"></i>
-                        Author Name
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-calendar"></i>
-                        Jan 20, 2022
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <div class="post-tags mb-md-4 mb-4">
-                    <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
-                  </div>
-                  <a href="javascript:void(0)">
-                    <h3 class="m-0 post-heading">
-                      قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي
-                    </h3>
+        <!-- Featured Articals -->
+        <section class="post-section pb-md-5">
+          <div class="row g-5 featured__articals__card__container horizontal__scroll">
+            <div class="col-12 col-lg-6 col-xl-4">
+              <div class="medium-cards-container">
+                <div class="post-image">
+                  <a href="./listing.php">
+                    <img src="./assets/img/shot-by.jpg" alt="Image" />
                   </a>
+                </div>
+                <div class="post-content arabic [ d-flex flex-column justify-content-between ]">
+                  <div class="post-auth-date [ d-flex ]">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-user"></i>
+                          Author Name
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-calendar"></i>
+                          Jan 20, 2022
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div class="post-tags mb-md-4 mb-4">
+                      <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
+                    </div>
+                    <a href="./listing.php">
+                      <h3 class="m-0 post-heading">
+                        قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+              <div class="medium-cards-container">
+                <div class="post-image">
+                  <a href="./post-details.php">
+                    <img src="./assets/img/shot-by.jpg" alt="Image" />
+                  </a>
+                </div>
+                <div class="post-content urdu [ d-flex flex-column justify-content-between ]">
+                  <div class="post-auth-date [ d-flex ]">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-user"></i>
+                          Author Name
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-calendar"></i>
+                          Jan 20, 2022
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div class="post-tags mb-md-4 mb-4">
+                      <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
+                    </div>
+                    <a href="./post-details.php">
+                      <h3 class="m-0 post-heading">
+                        جشن یوم غزالی کے موقع پر شیخ عبد القادر جیلانی اور خواجہ نظام الدین اولیا کا عرس
+                      </h3>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+              <div class="medium-cards-container">
+                <div class="post-image">
+                  <a href="./post-details.php">
+                    <img src="./assets/img/shot-by.jpg" alt="Image" />
+                  </a>
+                </div>
+                <div class="post-content urdu [ d-flex flex-column justify-content-between ]">
+                  <div class="post-auth-date [ d-flex ]">
+                    <ul class="d-flex">
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-user"></i>
+                          Author Name
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;">
+                          <i class="fa-solid fa-calendar"></i>
+                          Jan 20, 2022
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div class="post-tags mb-md-4 mb-4">
+                      <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
+                    </div>
+                    <a href="./post-details.php">
+                      <h3 class="m-0 post-heading">
+                        جشن یوم غزالی کے موقع پر شیخ عبد القادر جیلانی اور خواجہ نظام الدین اولیا کا عرس
+                      </h3>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
-            <div class="medium-cards-container">
-              <div class="post-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/img/shot-by.jpg" alt="Image">
-                </a>
-              </div>
-              <div class="post-content arabic [ d-flex flex-column justify-content-between ]">
-                <div class="post-auth-date [ d-flex ]">
-                  <ul class="d-flex">
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-user"></i>
-                        Author Name
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-calendar"></i>
-                        Jan 20, 2022
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <div class="post-tags mb-md-4 mb-4">
-                    <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
-                  </div>
-                  <a href="javascript:void(0)">
-                    <h3 class="m-0 post-heading">
-                      قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي
-                    </h3>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-4">
-            <div class="medium-cards-container">
-              <div class="post-image">
-                <a href="javascript:void(0)">
-                  <img src="./assets/img/shot-by.jpg" alt="Image">
-                </a>
-              </div>
-              <div class="post-content arabic [ d-flex flex-column justify-content-between ]">
-                <div class="post-auth-date [ d-flex ]">
-                  <ul class="d-flex">
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-user"></i>
-                        Author Name
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:;">
-                        <i class="fa-solid fa-calendar"></i>
-                        Jan 20, 2022
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <div class="post-tags mb-md-4 mb-4">
-                    <a href="javascript:;" class="btn btn-primary tag">Fiqh-o-Hadeth</a>
-                  </div>
-                  <a href="javascript:void(0)">
-                    <h3 class="m-0 post-heading">
-                      قدم إلي فضيلة الشيخ عبداللطيف خلف عبد اللطيف فرغلي المبعوث من الأزهر الشريف درع تكريمي
-                    </h3>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+        </section>
 
+        <div class="row g-5">
           <div class="col-12 col-md-6 col-lg-4 col-xl-3">
             <div class="post__listing__card">
               <div class="post__listing__card__image">
@@ -570,7 +558,7 @@
         </div>
     </div>
     </div>
-    <div data-id="tab-2" class="author__tab__data">
+    <div data-id="tab-2" class="author__tab__data active">
       <div class="container">
         <div class="section-heading [ d-flex align-items-center ]">
           <h2 class="heading-text m-0 font-gilroy-bold text-primary fs-2">
@@ -579,7 +567,7 @@
         </div>
         <div class="author__profile__container urdu [ d-flex flex-column mb-3 ]">
           <div class="content__block">
-            <div class="content__block__text [ d-flex gap-5 ]">
+            <div class="content__block__text [ d-flex gap-md-5 gap-3 mobile-flex-wrap ]">
               <p>
                 اکیسویں صدی کو مذہبی مزاج ، صوفی فکر ، معتدل رائے اور اپنے انفرادی اسلوب سے جن شخصیات نے پہلی دہائی سے ہی متاثر کرنا شروع کیا، ان میں ایک بڑا موثر نام ذیشان احمد مصباحی کا بھی شامل ہے ۔موصوف درجن بھر سے زائد کتابوں کے مصنف ، سو سے زیادہ علمی مقالات کے خالق ، چھوٹے بڑے سیکڑوں علمی وفکری مضامین کے بلند پایہ قلم کار اور جامعہ عارفیہ سید سراواں کے موقر استاذ ہیں ۔ متعدد ملکی اور بین الاقوامی سیمیناروں میں اپنی علمی وفکری موجودگی کا احساس دلاچکے ہیں۔
               </p>              
@@ -587,7 +575,7 @@
           </div>
           <div class="content__block">
             <h2 class="fs-1 mb-4 text-primary">تعلیم</h2>
-            <div class="content__block__text [ d-flex gap-5 ]">
+            <div class="content__block__text [ d-flex gap-md-5 gap-3 mobile-flex-wrap ]">
               <p>
                 ڈاکٹر ذیشان احمد مصباحی کی پیدائش بہار کی مردم خیز زمین مغربی چمپارن کے ایک گاؤں میں 25/ مئی 1984/ کو ہوئی ۔والد گرامی ایک عالم دین ہیں۔ ان سے ابتدائی تعلیم حاصل کی ، پھر چھوٹے بڑے مدارس میں تعلیم حاصل کرتے ہوئے ملک کی عظیم دینی دانش گاہ جامعہ اشرفیہ مبارک پور پہنچے۔ جامعہ اشرفیہ سے 2004/ میں اول پوزیشن کے ساتھ فضلیت مکمل کی۔
               </p>
@@ -598,7 +586,7 @@
           </div>
           <div class="content__block">
             <h2 class="fs-1 mb-4 text-primary">تدریس</h2>
-            <div class="content__block__text [ d-flex gap-5 ]">
+            <div class="content__block__text [ d-flex gap-md-5 gap-3 mobile-flex-wrap ]">
               <p>
                 2012/ 2013 / راجدھانی دہلی کی معروف درس گاہ جامعہ حضرت نظام الدین اولیاکے مدرس رہے ۔2015 / 2016 / جامعہ ملیہ میں بحیثیت مہمان استاذ تدریسی فرائض انجام دیے اور 2012/ سے اب تک جامعہ عارفیہ سید سراواں الہ آباد کے سینئر استاذ ہیں۔
               </p>
@@ -606,7 +594,7 @@
           </div>
           <div class="content__block">
             <h2 class="fs-1 mb-4 text-primary">تحریر</h2>
-            <div class="content__block__text [ d-flex gap-5 ]">
+            <div class="content__block__text [ d-flex gap-md-5 gap-3 mobile-flex-wrap ]">
               <p>
                 ذیشان احمد مصباحی عصر جدید کے ان قلم کاروں میں سے ایک ہیں جن کی زندگی نئی نسل کے لیے مشعل راہ ہے ۔ جامعہ اشرفیہ سے فراغت کے بعد موصوف نے جب جام نور کے پلیٹ فارم سے اپنا قلمی جوہر دنیا کے سامنے پیش کیا تو نئی نسل کے دلوں میں فکر وشعور اور تحریروقلم کے حوالے سے ایک خاص بیداری محسوس کی گئی۔ اس معنی میں ذیشان مصباحی اپنے بعد والوں کے لیے ایک خاموش رہنما ثابت ہوئے۔ بے باک اور بے خوف صاحب قلم کی حیثیت سے آپ نےاواخر 2004 سے 2012/ تک وقت کے معروف ماہنامہ جام نور میں بحیثیت مدیر صحافتی خدمات انجام دیں۔ 2005/ 2006/ میں ماہ نامہ ماہ نوردہلی اور 2009/2010/ میں پندرہ روزہ نیو ایج ویژن کے بھی ایڈیٹر رہے ۔2010 / سے خانقاہ عالیہ عارفیہ سید سراواں سے تصوف پر علمی، فکری ودعوتی سالانہ مجلہ پابندی سے شائع ہورہا ہے جس کے شریک مرتب ہیں۔
               </p>
@@ -618,7 +606,7 @@
         </div>
       </div>
     </div>
-    <div data-id="tab-3" class="author__tab__data active">
+    <div data-id="tab-3" class="author__tab__data ">
       <div class="container">
         <div class="section-heading [ d-flex align-items-center ]">
           <h2 class="heading-text m-0 font-gilroy-bold text-primary fs-2">
