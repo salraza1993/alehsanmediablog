@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
         }       
       })
       allTabsData.forEach(tab => {
+        window.scrollTo(0, 270);
         if (tab.getAttribute('data-id') == thisId) {
           tab.classList.add('active');
         } else {
